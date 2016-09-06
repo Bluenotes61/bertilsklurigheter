@@ -107,11 +107,21 @@ input, textarea {
 
 
 .topbar {
-  text-align: center;
-  padding:20px;
   background: #BA5134;
   color:#fff;
   margin-bottom: 40px;
+}
+.topbar .img {
+  width: 20%;
+}
+.topbar .img img {
+  display: block;
+  height: 130px;
+}
+.topbar .header {
+  width: 60%;
+  text-align: center;
+  padding:20px 0;
 }
 .content {
   max-width: 1200px;
