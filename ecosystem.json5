@@ -8,7 +8,7 @@
   apps : [
 
     {
-      name      : "patientbesked",
+      name      : "bertil",
       script    : "app.js",
       env: {
         COMMON_VARIABLE: "true"
