@@ -116,12 +116,23 @@ input, textarea {
 }
 .topbar .img img {
   display: block;
-  height: 130px;
+  height: 135px;
 }
 .topbar .header {
   width: 60%;
   text-align: center;
   padding:20px 0;
+}
+.topbar .fb {
+  width: 20%;
+  text-align: right;
+}
+.topbar .fb a {
+  display: inline-block;
+  background: url(../gfx/facebook.png) center center no-repeat;
+  background-size: auto 50%;
+  height: 100px;
+  width: 100px;
 }
 .content {
   max-width: 1200px;
@@ -129,11 +140,14 @@ input, textarea {
 }
 .opener {
   display: block;
-  background: #5B889D;
+  background: #5B889D url(../gfx/open-right.svg) right 10px center no-repeat;
   color: #fff;
   padding:10px;
   border:solid 1px #fff;
   text-align: center;
+}
+.opener.open {
+  background-image: url(../gfx/open-down.svg);
 }
 .gamecontent {
   display: none;
@@ -173,4 +187,29 @@ input, textarea {
 }
 .answerlink {
   color: #BA5134;
+}
+
+@media(max-width: 600px) {
+  .topbar .img {
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+  .topbar .img img {
+    display: inline-block;
+  }
+  .topbar .header {
+    float:none;
+    width: 100%;
+    padding:10px 0;
+  }
+  .topbar .fb {
+    position:absolute;
+    top:0;
+    right:10px;
+  }
+  .topbar .fb a {
+    width:80px;
+    height:80px;
+  }
 }
