@@ -1,0 +1,3 @@
+[submodule "nodebase"]
+	path = nodebase
+	url = root@staging.patientbesked.se:/var/repo/nodebase

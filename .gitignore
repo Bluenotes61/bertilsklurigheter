@@ -1,0 +1,8 @@
+#config files should not be commited
+/config.js
+
+#node modules... no thank you!
+node_modules
+
+#private files
+private

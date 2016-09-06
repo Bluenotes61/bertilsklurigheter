@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  
+  <div class='games'>
+    {% for game in games %}
+      <div class='onegame'>
+        <a class='opener'>{{game.rubrik}}</a>
+        <div class='gamecontent'>
+          <div class='intro clearfix'>
+            <div class='leftinfo'>
+              <h2>{{game.rubrik}}</h2>
+              <div class='description'>{{game.intro}}</div>
+              <div class='info'>{{game.info}}</div>
+            </div>
+            <div class='image'><img src='/gfx/{{game.tavling}}.png' /></div>
+          </div>
+
+          <div class='questions'>
+            {% for q in game.questions %}
+              <div class='onequestion'>
+                <div class='qtitle'>Fråga {{loop.index}}</div>
+                <div class='question'>{{q.fraga1}}</div>
+                <div class='question'>{{q.fraga2}}</div>
+                <a class='answerlink'>Svar >></a>
+                <div class='answer'>
+                  <div class='question'>{{q.svar1}}</div>
+                  <div class='question'>{{q.svar2}}</div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
