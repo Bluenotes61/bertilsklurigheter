@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>Bertils klurigheter</title>
+    <meta content="Tävlingar av Bertil Ljungberg, publicerade i Sydsvenskan under 80- och 90-talet" name="description" />
     <meta http-equiv='content-type' content='text/html; charset=utf-8;' />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />    
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
@@ -12,10 +13,10 @@
   </head>
   <body>
     <div class='topbar clearfix'>
-      <div class='floatleft img'><img src='gfx/bertil.png' /></div>
+      <div class='floatleft img'><img src='gfx/bertil.png' alt='Bertil Ljungberg' title='Bertil Ljungberg' /></div>
       <div class='floatleft header'>
         <h1>Bertils klurigheter</h1>
-        <p>Tävlingar av Bertil Ljungberg, publicerade i Sydsvenskan under 80- och 90-talet</p>
+        <h4>Tävlingar av Bertil Ljungberg, publicerade i Sydsvenskan under 80- och 90-talet</h4>
       </div>
       <div class='floatright fb'>
         <a href='https://www.facebook.com/bertilsklurigheter' target='_blank'>
@@ -24,9 +25,11 @@
       </div>
     </div>
 
-    <div class='content'>
-      {% block content %}
-      {% endblock %}
+    <div class='main'>
+      <div class='content'>
+        {% block content %}
+        {% endblock %}
+      </div>
     </div>
 
     <script>
