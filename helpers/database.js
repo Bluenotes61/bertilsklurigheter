@@ -1,7 +1,6 @@
 var Sequelize = require("sequelize");
 var Q = require("q");    
 var config = require("../config.js");  
-var dbupdates = require("./dbupdates.js");  
 var dbnodebase = require("../nodebase/helpers/database.js");  
 var common = require("./common.js");  
 var db = this;
@@ -62,15 +61,4 @@ exports.associate = function() {
 /**
  * If config.application.updateDatabase is set the database is checked for updates.
  */
-if (config.application.updateDatabase) {
-  dbupdates.update().then(
-    function() {
-      console.log("Application database updated");
-    },
-    function(err) {
-      common.logError(null, err);
-    }
-  )
-}
-else
-  db.associate();
+db.associate();
