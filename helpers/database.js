@@ -26,11 +26,6 @@ exports.Game = this.sequelize.define('game', {
   info: { type: Sequelize.STRING(300) },
   descript: { type: Sequelize.STRING(200) },
   tips: { type: Sequelize.STRING(200) }
-},
-{
-  classMethods: { associate: function () {
-    db.Game.hasMany(db.Question, { foreignKey: 'tavlingid' })
-  } }
 })
 
 exports.Question = this.sequelize.define('question', {
@@ -41,22 +36,14 @@ exports.Question = this.sequelize.define('question', {
   svar1: { type: Sequelize.STRING(200) },
   svar2: { type: Sequelize.STRING(200) },
   orderno: { type: Sequelize.INTEGER }
-},
-{
-  classMethods: { associate: function () {
-    db.Question.belongsTo(db.Game, { foreignKey: 'tavlingid' })
-  } }
 })
 
 /**
  * Make associations
  */
 exports.associate = function () {
-  Object.keys(db).forEach(function (modelName) {
-    if ('associate' in db[modelName]) {
-      db[modelName].associate()
-    }
-  })
+  db.Game.hasMany(db.Question, { foreignKey: 'tavlingid' })
+  db.Question.belongsTo(db.Game, { foreignKey: 'tavlingid' })
 }
 
 /**

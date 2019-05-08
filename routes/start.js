@@ -9,6 +9,7 @@ var db = require('../helpers/database.js')
  */
 exports.index = function (req, res, next) {
   db.Game.findAll({
+    logging: console.log,
     include: [{
       model: db.Question
     }],

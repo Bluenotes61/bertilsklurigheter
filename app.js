@@ -5,7 +5,6 @@
 
 var express = require('express')
 var bodyParser = require('body-parser')
-var cookieParser = require('cookie-parser')
 var busboy = require('connect-busboy')
 var swig = require('swig')
 var config = require('./config.js')
@@ -29,5 +28,4 @@ app.use('/', express.static(path.join(__dirname, '/public')))
 
 app.use(busboy())
 app.use(bodyParser())
-app.use(cookieParser())
 app.use(routes)
