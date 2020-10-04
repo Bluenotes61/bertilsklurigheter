@@ -19,27 +19,9 @@ h1 { font-size: 200%; line-height:140%; font-weight: bold; margin: 0; }
 h2 { font-size: 190%; line-height:140%; font-weight: bold; margin: 0; color:#5B889D; }
 h3 { font-size: 140%; line-height:140%; font-weight: normal; margin: 0; }
 h4,h5,h6 { font-size: 115%; line-height:140%; font-weight: bold; margin: 0; }
-
-
-#tutorial .content h2,
-#tinymce h2 {
-  color:#333;
-  font-size: 160%;
-  margin-bottom: 5px;
-}
-#tutorial .content h3,
-#tinymce h3 {
-  color:#666;
-  margin-bottom: 5px;
-}
-#tutorial .content h4,
-#tinymce h4 {
-  color:#666;
-}
-
 p { margin: 0 0 6px 0; }
-a { color:#000; cursor:pointer; text-decoration: none; outline: none; }
-a:hover { text-decoration: none; outline: none; }
+a { color:#BA5134; cursor:pointer; text-decoration: none; outline: none; }
+a:hover { color: #5B889D; text-decoration: none; outline: none; }
 img { border: 0; outline: none; }
 ul {
   margin:0;
@@ -78,9 +60,6 @@ input, textarea {
   text-align: right;
 }
 
-/*
-  Button that is skinned for kliniker and initalized in master.js
- */
 .button {
   display: inline-block;
   text-align:center;
@@ -105,11 +84,9 @@ input, textarea {
 }
 
 
-
 .topbar {
   background: #BA5134;
   color:#fff;
-  margin-bottom: 40px;
 }
 .topbar .img {
   width: 20%;
@@ -140,59 +117,36 @@ input, textarea {
 .topbar .fb a:hover {
   opacity:0.7;
 }
+
+.tabs {
+  text-align: center;
+}
+.tab {
+  display: inline-block;
+  margin:0 10px;
+}
+.tab a {
+  display: block;
+  background: #BA5134;
+  padding: 10px 20px;
+  color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  opacity: 0.7;
+}
+.tab a:hover {
+  opacity: 1;
+}
+
+.main {
+  margin-top: 10px;
+}
 .content {
   max-width: 1200px;
   margin:0 auto;
 }
-.opener {
-  display: block;
-  background: #5B889D url(../gfx/open-right.svg) right 10px center no-repeat;
-  color: #fff;
-  padding:10px;
-  border:solid 1px #fff;
-  text-align: center;
-}
-.opener.open {
-  background-image: url(../gfx/open-down.svg);
-}
-.gamecontent {
-  display: none;
-  border: solid 1px #5B889D;
-}
-.answer {
-  display: none;
-}
-
 .intro {
-  padding:20px;
-}
-.onequestion {
-  padding:20px;
-  background: #f5f5f5;
-  margin-bottom:20px;
-}
-.question {
-  font-weight: bold;
-}
-.leftinfo {
-  float:left;
-  width: 70%;
-  padding-right:40px;
-}
-.image {
-  width:30%;
-  float: right;
-  text-align: right;
-}
-.description {
-  margin:10px 0;
-  font-size: 120%;
-}
-.info {
-  font-style: italic;
-}
-.answerlink {
-  color: #BA5134;
+  text-align: center;
 }
 
 @media(max-width: 600px) {

@@ -8,11 +8,15 @@
 
 var express = require('express')
 var router = express.Router()
+var start = require('./start')
+var klurig = require('./klurig')
+var orden = require('./orden')
 
 /**
  * start
  */
-var file = require('./start')
-router.get('/', file.index)
+router.get('/', start.index)
+router.get('/klurigheter', klurig.index)
+router.get('/ordenrunt', orden.index)
 
 module.exports = router

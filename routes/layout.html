@@ -9,20 +9,29 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <script type='text/javascript' src='js/jquery-1.11.2.min.js'></script>
-    <script type='text/javascript' src='js/start.js'></script>
+    {% block header %}
+    {% endblock %}
   </head>
   <body>
     <div class='topbar clearfix'>
-      <div class='floatleft img'><img src='gfx/bertil.png' alt='Bertil Ljungberg' title='Bertil Ljungberg' /></div>
+      <div class='floatleft img'>
+        <a href='/'>
+          <img src='gfx/bertil.png' alt='Bertil Ljungberg' title='Bertil Ljungberg' />
+        </a>
+      </div>
       <div class='floatleft header'>
         <h1>Bertils klurigheter</h1>
-        <h4>Tävlingar av Bertil Ljungberg, publicerade i Sydsvenskan under 80- och 90-talet</h4>
+        <h4>Klurigheter av Bertil Ljungberg, publicerade i Sydsvenskan från 198? - 20??</h4>
       </div>
       <div class='floatright fb'>
-        <a href='https://www.facebook.com/bertilsklurigheter' target='_blank'>
+        <a href='https://www.facebook.com/bertil.ljungberg.1' target='_blank'>
           Kontakta mig gärna på Facebook
         </a>
       </div>
+    </div>
+    <div class='tabs'>
+      <div class='tab'><a href='/klurigheter' class='klurig'>Tävlingar</a></div>
+      <div class='tab'><a href='/ordenrunt' class='orden'>Orden runt</a></div>
     </div>
 
     <div class='main'>

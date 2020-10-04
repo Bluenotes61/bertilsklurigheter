@@ -7,7 +7,7 @@ exports.index = function (req, res, next) {
     }],
     order: [[db.Question, 'orderno', 'asc']]
   }).then(function (games) {
-    res.render('start', {
+    res.render('klurig', {
       games: games
     })
   })

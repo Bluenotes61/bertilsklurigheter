@@ -1,0 +1,12 @@
+.submain {
+  text-align: center;
+}
+.description {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 120%;
+  line-height: 140%;
+}
+.description p {
+  margin: 16px 0 0 0;
+}
