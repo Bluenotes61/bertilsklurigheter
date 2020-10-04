@@ -28,14 +28,29 @@
 .puzzlearea {
   position: relative;
   display: inline-block;
-  height: 100px;
   top: 0;
   width: 70%;
 }
-.success {
+.successarea {
+  position: absolute;
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-bottom: 20px;
   display: none;
+  background: #fff;
+  border: solid 3px #BA5134;
+  padding: 20px;
+}
+.successarea .close {
+  position: absolute;
+  top: 0;
+  right: 3px;
+}
+.puzzlearea.success .title, .puzzlearea.success .puzzle {
+  opacity: 0.3;
+}
+.puzzlearea.success .successarea {
+  display: block;
 }
 
 @media(max-width: 600px) {
@@ -81,7 +96,7 @@
   background: #ddd;
 }
 .cheat {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 .cheat a {
@@ -90,6 +105,7 @@
 }
 .forget {
   text-align: center;
+  margin-top: 20px;
 }
 .forget a {
   font-size: 60%;

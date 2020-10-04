@@ -26,6 +26,9 @@ $(document).ready(function () {
 
     $('.cheat a').on('click', cheat)
     $('.forget a').on('click', forget)
+    $('.successarea .close a').on('click', function () {
+      $('.puzzlearea').removeClass('success')
+    })
 
     $('.selpuzzle select').on('change', selectPuzzle)
 
@@ -61,7 +64,7 @@ $(document).ready(function () {
   }
 
   function selectPuzzle () {
-    $('.success').slideUp()
+    $('.puzzlearea').removeClass('success')
     puzzleSelected(this.value)
     currAngle = 0
     drawBoxes()
@@ -136,7 +139,7 @@ $(document).ready(function () {
   function forget () {
     puzzle.solved = false
     saveCookie()
-    $('.success').slideUp()
+    $('.puzzlearea').removeClass('success')
     for (var i = 0; i < boxes.length; i++) {
       boxes[i].letter = ''
     }
@@ -158,6 +161,8 @@ $(document).ready(function () {
     var textRadius = circleRadius - textOffset - fontSize
     $('.title1').arctext({ radius: textRadius })
     $('.title2').arctext({ radius: textRadius, dir: -1 })
+    $('.successarea h2').css({ fontSize: fontSize })
+    $('.successarea').css({ top: circleRadius - $('.successarea').height() })
   }
 
   function getRadius () {
@@ -187,6 +192,7 @@ $(document).ready(function () {
         boxes[i].addClass('selected')
       }
     }
+    $('.puzzlearea').css({ height: circleRadius - 50 })
   }
 
   function charEnter (e) {
@@ -223,7 +229,7 @@ $(document).ready(function () {
         sel.text(sel.text() + ' (Löst)')
       }
 
-      $('.success').slideDown()
+      $('.puzzlearea').addClass('success')
     }
   }
 
