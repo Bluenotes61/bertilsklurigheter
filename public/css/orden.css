@@ -73,10 +73,9 @@
   overflow: hidden;
 }
 .wordbox .letter input {
-  text-align: center;
-  caret-color: transparent;
-  border: none;
-  background: transparent;
+  display: block;
+  position: absolute;
+  opacity: 0;
 }
 .wordbox.selected .letter {
   background: #ddd;

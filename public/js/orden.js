@@ -80,9 +80,12 @@ $(document).ready(function () {
     $('.puzzle').empty()
     boxes = []
     for (var i = 0; i < puzzle.nofBoxes; i++) {
-      var abox = $('<div class="wordbox" data-nr="' + i + '"><div class="number"></div><div class="letter"><input type="text" /></div></div>')
+      var abox = $('<div class="wordbox" data-nr="' + i + '"><div class="number"></div><div class="letter"><input type="text" /><div class="char"></div></div></div>')
       abox.nr = i
       abox.on('click', boxClicked)
+      abox.find('input').on('focus', function () {
+        $(this).val('')
+      })
 
       if (puzzle.solved) {
         abox.letter = puzzle.solutionString[i]
@@ -147,8 +150,8 @@ $(document).ready(function () {
     var textOffset = nrOffset + width + innerRadius / 10
     $('.wordbox').css({ width: width, height: width + nrOffset })
     $('.wordbox .number').css({ height: nrOffset })
-    $('.wordbox .letter').css({ height: width, width: width })
-    $('.wordbox .letter input').css({ height: width, width: width, lineHeight: width + 'px', fontSize: width + 'px' })
+    $('.wordbox .letter').css({ height: width, width: width, lineHeight: width + 'px', fontSize: width + 'px' })
+    $('.wordbox .letter input').css({ height: width, width: width })
     $('.title').css({ width: 2 * circleRadius, fontSize: fontSize })
     $('.title1').css({ top: textOffset })
     $('.title2').css({ top: 2 * circleRadius - textOffset - fontSize })
@@ -174,7 +177,7 @@ $(document).ready(function () {
       var x = radius * Math.sin(angle) + circleRadius - width / 2
       var y = radius * (1 - Math.cos(angle))
       var deg = toDeg(angle)
-      boxes[i].find('.letter input').val(boxes[i].letter)
+      boxes[i].find('.letter .char').text(boxes[i].letter)
       if (boxes[i].number) {
         boxes[i].find('.number').text(boxes[i].number)
       }
