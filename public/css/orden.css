@@ -70,8 +70,13 @@
 }
 .wordbox .letter {
   border: solid 1px #666;
+  overflow: hidden;
+}
+.wordbox .letter input {
   text-align: center;
   caret-color: transparent;
+  border: none;
+  background: transparent;
 }
 .wordbox.selected .letter {
   background: #ddd;
