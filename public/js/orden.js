@@ -265,7 +265,7 @@ $(document).ready(function () {
   }
 
   function spin (direction) {
-    if ((direction === -1 && currAngle <= finalAngle) || (direction === 1 && currAngle >= finalAngle)) {
+    if ((direction === -1 && currAngle <= finalAngle) || (direction === 1 && currAngle >= finalAngle) || spinAmount === 0) {
       clearInterval(spinning)
       spinning = null
     } else {
