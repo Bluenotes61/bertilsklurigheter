@@ -21,21 +21,25 @@ const readPuzzles = async () => {
   })
   for (const file of files) {
     const apath = path.join(appRoot, 'puzzles', file)
+    const nr = parseInt(path.basename(apath).split('.')[0])
+    const week = (40 + nr) % 52 + 1
+    const year = Math.trunc((40 + nr) / 52) + 1984
     const puzzleTxt = await readFile(apath, 'utf8')
     const lines = puzzleTxt.split('\n')
     puzzles.push({
-      week: lines[0].trim(),
-      numberString: lines[1].trim(),
-      solutionString: lines[2].trim(),
+      number: nr,
+      week: `Vecka ${week}, ${year}`,
+      numberString: lines[0].trim(),
+      solutionString: lines[1].trim(),
       leads: [
+        lines[2].trim(),
         lines[3].trim(),
         lines[4].trim(),
         lines[5].trim(),
         lines[6].trim(),
         lines[7].trim(),
         lines[8].trim(),
-        lines[9].trim(),
-        lines[10].trim()
+        lines[9].trim()
       ]
     })
   }

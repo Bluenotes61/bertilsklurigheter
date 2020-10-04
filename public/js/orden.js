@@ -11,8 +11,10 @@ $(document).ready(function () {
   var puzzle = null
 
   function init () {
+    getCookie()
+
     for (var p = 0; p < puzzles.length; p++) {
-      $('.selpuzzle select').append('<option value="' + p + '">' + puzzles[p].week + '</option>')
+      $('.selpuzzle select').append('<option value="' + p + '">' + puzzles[p].week + (puzzles[p].solved ? ' (Löst)' : '') + '</option>')
     }
     puzzleSelected(0)
 
@@ -23,16 +25,45 @@ $(document).ready(function () {
     $(window).on('resize', drawBoxes)
 
     $('.cheat a').on('click', cheat)
+    $('.forget a').on('click', forget)
 
     $('.selpuzzle select').on('change', selectPuzzle)
 
     drawBoxes()
   }
 
+  function getCookie () {
+    var cookies = document.cookie.split(';')
+    var solved = []
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i].split('=')
+      if (cookie[0].trim() === 'solved') {
+        solved = cookie[1].split(',')
+      }
+    }
+    for (var j = 0; j < solved.length; j++) {
+      var apuzzle = puzzles.find(function (p) { return p.number === parseInt(solved[j]) })
+      if (apuzzle) {
+        apuzzle.solved = true
+      }
+    }
+  }
+
+  function saveCookie () {
+    var solved = ''
+    for (var j = 0; j < puzzles.length; j++) {
+      if (puzzles[j].solved) {
+        if (solved.length > 0) solved += ','
+        solved += puzzles[j].number
+      }
+    }
+    document.cookie = 'solved = ' + solved + ';'
+  }
+
   function selectPuzzle () {
     $('.success').slideUp()
     puzzleSelected(this.value)
-    currAngle = 0;
+    currAngle = 0
     drawBoxes()
   }
 
@@ -52,6 +83,11 @@ $(document).ready(function () {
       var abox = $('<div class="wordbox" data-nr="' + i + '"><div class="number"></div><div class="letter"></div></div>')
       abox.nr = i
       abox.on('click', boxClicked)
+
+      if (puzzle.solved) {
+        abox.letter = puzzle.solutionString[i]
+      }
+
       boxes.push(abox)
       $('.puzzle').append(abox)
     }
@@ -64,8 +100,9 @@ $(document).ready(function () {
 
     $('.leads ol').empty()
     for (var k = 0; k < puzzle.leads.length; k++) {
-      $('.leads ol').append('<li>' + puzzle.leads[k] + '</li>')
+      $('.leads ol').append('<li>' + puzzle.leads[k] + '.</li>')
     }
+    checkSolution()
   }
 
   function boxClicked () {
@@ -91,6 +128,18 @@ $(document).ready(function () {
       drawBoxes()
       checkSolution()
     }
+  }
+
+  function forget () {
+    puzzle.solved = false
+    saveCookie()
+    $('.success').slideUp()
+    for (var i = 0; i < boxes.length; i++) {
+      boxes[i].letter = ''
+    }
+    var sel = $('.selpuzzle select option:selected')
+    sel.text(sel.text().substring(0, sel.text().length - 7))
+    drawBoxes()
   }
 
   function sizeBoxes (width, circleRadius, innerRadius) {
@@ -162,6 +211,14 @@ $(document).ready(function () {
       answer = answer + boxes[i].letter
     }
     if (answer === puzzle.solutionString) {
+      puzzle.solved = true
+      saveCookie()
+
+      var sel = $('.selpuzzle select option:selected')
+      if (sel.text().indexOf('(Löst)') < 0) {
+        sel.text(sel.text() + ' (Löst)')
+      }
+
       $('.success').slideDown()
     }
   }

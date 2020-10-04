@@ -77,9 +77,16 @@
 }
 .cheat {
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .cheat a {
+  font-size: 60%;
+  padding: 1px 8px;
+}
+.forget {
+  text-align: center;
+}
+.forget a {
   font-size: 60%;
   padding: 1px 8px;
 }

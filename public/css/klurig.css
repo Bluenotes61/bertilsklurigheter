@@ -17,6 +17,12 @@
 .opener.open {
   background-image: url(../gfx/open-down.svg);
 }
+.opener .ohead {
+  font-size: 140%;
+}
+.opener .odate {
+  font-size: 80%;
+}
 .gamecontent {
   display: none;
   border: solid 1px #5B889D;
