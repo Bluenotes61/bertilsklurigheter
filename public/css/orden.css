@@ -71,6 +71,7 @@
 .wordbox .letter {
   border: solid 1px #666;
   text-align: center;
+  caret-color: transparent;
 }
 .wordbox.selected .letter {
   background: #ddd;
