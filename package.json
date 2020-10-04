@@ -1,0 +1,22 @@
+{
+  "name": "Bertil",
+  "version": "0.0.1",
+  "author": {
+    "name": "Magnus Ehlde, Postdoc AB",
+    "email": "magnus@patientbesked.se"
+  },
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-busboy": "^0.0.2",
+    "express": "^4.16.4",
+    "promisify": "0.0.3",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  }
+}

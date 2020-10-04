@@ -1,0 +1,92 @@
+.tab a.orden {
+  opacity: 1;
+}
+
+.submain {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+}
+.intro {
+  margin-top: 40px;
+}
+.selpuzzle {
+  text-align: center;
+  margin: 20px 0;
+}
+.leads {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 29%;
+}
+.leads ol {
+  margin-right: 20px;
+}
+.puzzlearea {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  top: 0;
+  width: 70%;
+}
+.success {
+  text-align: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
+@media(max-width: 600px) {
+  .leads {
+    display: block;
+    width:100%;
+  }
+  .puzzle {
+    display: block;
+    width:100%;
+  }
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  line-height: 100%;
+  font-size: 12px;
+  z-index: 0;
+}
+.title1 {
+  color: #5B889D;
+}
+.title2 {
+  color: #BA5134;
+}
+.wordbox {
+  position: absolute;
+}
+.wordbox .number {
+  text-align: center;
+}
+.wordbox .letter {
+  border: solid 1px #666;
+  text-align: center;
+}
+.wordbox.selected .letter {
+  background: #ddd;
+}
+.cheat {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.cheat a {
+  font-size: 60%;
+  padding: 1px 8px;
+}
+.forget {
+  text-align: center;
+}
+.forget a {
+  font-size: 60%;
+  padding: 1px 8px;
+}

@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+  <title>Orden runt</title>
+  <link rel="stylesheet" type="text/css" href="css/orden.css" />
+  <script type='text/javascript' src='js/orden.js'></script>
+  <script type='text/javascript' src='js/circletype.js'></script>
+  <script type='text/javascript' src='js/jquery.arctext.js'></script>
+  <script type='text/javascript'>
+    var puzzles = {{ JSON.stringify(puzzles) }}
+  </script>
+{% endblock %}
+
+{% block content %}
+  <div class='intro'>
+    <h2>Orden runt på åtta svar</h2>
+    <p>Ett urval av de 1500 "Orden runt" som publicerades i Sydsvenskan mellan 198? och 20??.</p>
+    <p>Fyll i flätan och observera att lösningsorden delvis täcker varandra.</p>
+    <p>Klicka i den ruta som du vill börja fylla i och börja sedan skriva ordet.</p>
+    <p>Om du kör fast så finns det en "Fuska"-knapp :-)</p>
+  </div>
+
+  <div class='selpuzzle'>
+    <h4>Välj ordfläta</h4>
+    <select></select>
+  </div>
+
+  <div class='success'>
+    <h2>Du löste ordflätan!<br />Grattis säger Bertil!</h2>
+    <div class='forget'><a class='button'>Glöm lösning</a></div>
+  </div>
+
+  <div class='submain clearfix'>
+    <div class='leads'>
+      <ol></ol>
+      <div class='cheat'><a class='button'>Fuska...</a></div>
+    </div>
+    <div class='puzzlearea'>
+      <h2 class='title title1'>ORDEN RUNT</h2>
+      <h2 class='title title2'>PÅ ÅTTA SVAR</h2>
+      <div class='puzzle'></div>
+    </div>
+  </div>
+{% endblock %}

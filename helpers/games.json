@@ -1,0 +1,1693 @@
+[{
+  "tavling":"fragvisan",
+  "rubrik":"Frågvisan",
+  "date": "Sommaren 1983",
+  "intro":"Här testas dina kunskaper kring visor, sånger, kupletter, operetter osv. - i samtliga fall gamla pålitliga örhängen. Identifiera en sång, en visa eller vad det kan vara, med hjälp av en kryptisk beskrivning som syftar på titeln eller innehållet.",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1983. Man tävlade om 20 resor till Paris för två personer.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!",
+  "orderNo":3,
+  "questions":[{
+    "fraga1":"Till dam ställd och med ja besvarad fråga angående förmågan att framställa visst blåsljud.",
+    "fraga2":null,
+    "svar1":"Kan du vissla Johanna",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Uppfordran till uppslutning vid vätskeuppfordringsanordning på grund av rött flöde från Alfred.",
+    "fraga2":null,
+    "svar1":"Samling vid pumpen",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Glad och munter tonårstös inledningsvis utan tanke på äktenskapspörjande partner.",
+    "fraga2":null,
+    "svar1":"14 år tror jag visst att jag var|Fjorton år tror jag visst att jag var",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"I en viss riktning boende dam med två snedpupillade anförvanter.",
+    "fraga2":null,
+    "svar1":"Känner du Fia Jansson|Känner du Fia Janson|Fia Jansson|Fia Janson",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Dubbel uppsättning röda tygstycken avlägsnar sig på reflekterande underlag.",
+    "fraga2":null,
+    "svar1":"Två solröda segel",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Ingen klagolåt av valutasaknande varg i veum.",
+    "fraga2":null,
+    "svar1":"Nu är jag pank och fågelfri",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Lätesinledande fråga till yngre hovdam angående tillgång på yttre lager.",
+    "fraga2":null,
+    "svar1":"Bä bä vita lamm",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Uppmaning att betrakta äldre man som beter sig till musik lika taktriktigt som då han var yngre.",
+    "fraga2":null,
+    "svar1":"Se farfar dansar gammelvals|Se farfar dansar gammeldans",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Kronförsedd äldre bänkplacerad herre betraktar flygares försök få föda.",
+    "fraga2":null,
+    "svar1":"Calle Schewens vals",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Feminina Homo sapiens-representanter dansar ensamma och parvis på fruktförsedda upphöjningar.",
+    "fraga2":null,
+    "svar1":"Flickorna i Småland",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Flerbenad varelse rör sig uppför självtillverkad förflyttningsanordning tills Pluvius ingriper.",
+    "fraga2":null,
+    "svar1":"Imse vimse spindel",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Ombordanställd person gillar högt vätskeupphöjning.",
+    "fraga2":null,
+    "svar1":"En sjöman älskar havets våg",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Med föregående generation förknippad mindre person förflyttade sig ibland storvuxna fanerogamer.",
+    "fraga2":null,
+    "svar1":"Mors lilla Olle",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Uppmaning att erinra sig två månader gammal månad.",
+    "fraga2":null,
+    "svar1":"Minns i november",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Beskrivning av en i speciell bok omnämnd persons odlingsmöda efter grundstötning.",
+    "fraga2":null,
+    "svar1":"Gubben Noak",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Undran huruvida det är möjligt att ta sig fram då det är noll beaufort.",
+    "fraga2":null,
+    "svar1":"Vem kan segla förutan vind",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"Musikaliskt hörbar passage av socialistiskt kolorerade byggnader.",
+    "fraga2":null,
+    "svar1":"Röda stugor tåga vi förbi|Sommarvandring",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Yngre representant av viss familj uppmanas till vidare vila i Morfei armar.",
+    "fraga2":null,
+    "svar1":"Sov du lilla videung|Sov du lilla vide ung|Videvisan",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Promenad på ädelstensfärgade upphöjningar med kondenserad vattenånga.",
+    "fraga2":null,
+    "svar1":"Vi gå över daggstänkta berg",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"En jämförande beskrivning av hur Gud skapar fanerogamer och damer.",
+    "fraga2":null,
+    "svar1":"När vår Herre gör en blomma|Blomman",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"Påstående att konservativt färgade frukter förekommer på löväng.",
+    "fraga2":null,
+    "svar1":"Uti vår hage",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"Tidigare förpuppad individ visar sig vid Brunnsviken.",
+    "fraga2":null,
+    "svar1":"Fjäriln vingad syns på Haga|Fjäril vingad syns på Haga",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Solig promenad i varm årstid genom såväl slutna som öppna landskap utan att någon kvirrar.",
+    "fraga2":null,
+    "svar1":"I sommarens soliga dagar",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Beskrivning av vild fest i mindre bostad där honkönad anförvant ej kom loss med spetsig huvuddel.",
+    "fraga2":null,
+    "svar1":"Tjo, vad det var livat i holken|Tjo vad det var livat i holken",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"Hurtiga pysslingar placerar fluidium i därför avsedda anordningar.",
+    "fraga2":null,
+    "svar1":"Hej tomtegubbar",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Uppmaning att rasta vid vattenåder och duka till tidig måltid.",
+    "fraga2":null,
+    "svar1":"Vila vid denna källa",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Luft- och vätskerörelser hörs inte längre.",
+    "fraga2":null,
+    "svar1":"Storm och böljor tystna re'n|Storm och böljor tystna ren",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Lovprisande av vistelse i det gröna tillsammans med bevingade varelser.",
+    "fraga2":null,
+    "svar1":"Här är gudagott att vara",
+    "svar2":null,
+    "orderno":28
+  }]
+},{
+  "tavling":"dubbelordet",
+  "rubrik":"Dubbelordet",
+  "date": "Sommaren 1991",
+  "intro":"Det gäller att med hjälp av ledtrådar finna ett ord som har två betydelser. Exempel:<br />Sådan blick man kanske ser<br />eller<br />Någonting som finns längst ner<br />Svar: Tårad",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1991. I varje uppgift tävlade man om 1 axelremsväska, 5 sommarparaplyer och 5 picknickmuggar.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 36 uppgifter. Lycka till!",
+  "orderNo":8,
+  "questions":[{
+    "fraga1":"Person som ej tror på påven i Rom",
+    "fraga2":"Kvinna som är specialist på gom",
+    "svar1":"Protestant",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Räls som något vid sidan går",
+    "fraga2":"Tid man som chef för stiftet står",
+    "svar1":"Bispår",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Plats för varmt eller kallt på krogen",
+    "fraga2":"Kan man kalla furuskogen",
+    "svar1":"Tallrik",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Någonting som babyn är",
+    "fraga2":"Hon kan ligga på sån där",
+    "svar1":"Divan",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Något som till en cirkus ofta hör",
+    "fraga2":"Kan klaras med hjälp av en sekatör",
+    "svar1":"Lindans",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Något delat österut",
+    "fraga2":"När man nöten säljer ut",
+    "svar1":"Korea",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Någonting att fånga med",
+    "fraga2":"Positivt Sovjet-besked",
+    "svar1":"Ryssja",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Kan avse vädret i det fria",
+    "fraga2":"Brukar serveras i en stia",
+    "svar1":"Klimat",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Moramän som brukar ta ton",
+    "fraga2":"Utseendeförändrande person",
+    "svar1":"Maskör",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Passar längst ned när det är fest",
+    "fraga2":"Kvinnor för vilka vi bor i väst",
+    "svar1":"Finskor",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Behövande kan på sådan sig sätta",
+    "fraga2":"Annorlunda blir det efter detta",
+    "svar1":"Ändring",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"En som reparerar hojarna",
+    "fraga2":"En som bekämpar skojarna",
+    "svar1":"Åklagare",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Om de bästa bland bagarna är det här tal",
+    "fraga2":"Ett konstproducerat isoleringsmaterial",
+    "svar1":"Bakelit",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Det materiella kan gälla för detta ord",
+    "fraga2":"En serie för lag från hela vår jord",
+    "svar1":"Världsliga",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Plats för en chef om natten",
+    "fraga2":"Något fyllt med vatten",
+    "svar1":"Bassäng",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Här finns plats för två som vill sitta",
+    "fraga2":"Mellan sådana bör bollen hitta",
+    "svar1":"Stolpar",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"En form av rörelse detta är",
+    "fraga2":"Något som Bond på armen bär",
+    "svar1":"Agentur",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Lägger ägg men är inte ruvare",
+    "fraga2":"Kan man kanske kalla stuvare",
+    "svar1":"Kajman",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Detta något gemensamt är",
+    "fraga2":"Sysselsättning för veterinär",
+    "svar1":"Kooperation",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"Förbunden kan här passa",
+    "fraga2":"Flera i följd av redskap vassa",
+    "svar1":"Lierad",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"Babian är ett exempel",
+    "fraga2":"Egenartad person kan få denna \"stämpel\"",
+    "svar1":"Apart",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"Ett strå som på ett husdjur sitter",
+    "fraga2":"Sådan kan vara både söt och bitter",
+    "svar1":"Mandel",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Person som fattar vettiga beslut",
+    "fraga2":"Verkomgivning som sålts ut",
+    "svar1":"Realist",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Något mer är 365 da\\'r",
+    "fraga2":"Något som vissa grisar har",
+    "svar1":"Solår",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"En fara för den som på nederbörd far",
+    "fraga2":"Ska rören innan man åktur tar",
+    "svar1":"Snöras",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Sådana saker är inte dyra",
+    "fraga2":"Bovar som rullar runt på fyra",
+    "svar1":"Billiga",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Det kan huvudet där fram",
+    "fraga2":"Ett före detta livligt lamm",
+    "svar1":"Fåras",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Trist det är med sådant uttryck",
+    "fraga2":"Låter bra vid lämpligt trut-tryck",
+    "svar1":"Trumpet",
+    "svar2":null,
+    "orderno":28
+  },{
+    "fraga1":"Koreografi i orientalisk stil",
+    "fraga2":"Träarbete med hjälp av fil",
+    "svar1":"Slöjdans",
+    "svar2":null,
+    "orderno":29
+  },{
+    "fraga1":"Sådan grävmaskin gör väl ingen grop",
+    "fraga2":"Något under snören som knyts ihop",
+    "svar1":"Skoplös",
+    "svar2":null,
+    "orderno":30
+  },{
+    "fraga1":"En som talar till systrar och bröder",
+    "fraga2":"Rätter som kommer från stövel i söder",
+    "svar1":"Pastor",
+    "svar2":null,
+    "orderno":31
+  },{
+    "fraga1":"Någonting som båten kan vara",
+    "fraga2":"En \"på-väg-till-dammen\"-skara",
+    "svar1":"Ankrad",
+    "svar2":null,
+    "orderno":32
+  },{
+    "fraga1":"Instrument du i orkestrar har sett",
+    "fraga2":"Om sådana finns så har de det hett",
+    "svar1":"Bastubor",
+    "svar2":null,
+    "orderno":33
+  },{
+    "fraga1":"Inget vidare för magen",
+    "fraga2":"Rena döden uti hagen",
+    "svar1":"Kolik",
+    "svar2":null,
+    "orderno":34
+  },{
+    "fraga1":"Kan en ko med tjuren bli",
+    "fraga2":"Någonting som går förbi",
+    "svar1":"Parad",
+    "svar2":null,
+    "orderno":35
+  },{
+    "fraga1":"Någonting för landets bassar",
+    "fraga2":"Något som på landet passar",
+    "svar1":"Korum",
+    "svar2":null,
+    "orderno":36
+  }]
+},{
+  "tavling":"ett_liv",
+  "rubrik":"Här har du ett liv",
+  "date": "Sommaren 1981",
+  "logo":"img/ettliv.png",
+  "intro":"Kryptisk beskrivning av ett djur.<br />Det gäller att identifiera det djur det handlar om.",
+  "info":"Tävlingen gick, tillsammans med tävlingen \"Snål information om person\", under namnet \"Snålskjutsen\" som sommartävling i Sydsvenskan 1981. Man tävlade om 10 resor till Skottland för två personer.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 14 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo":0,
+  "questions":[{
+    "fraga1":"Bevingad varelse utan flygförmåga. Skrivs med fem konsonanter och endast en vokal.",
+    "fraga2":null,
+    "svar1":"Struts",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Nattvarelse som dagtid kan sitta och vara sig själv. Kan bildligt talat anas i våtmark.",
+    "fraga2":null,
+    "svar1":"Uggla",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Har huvud som en svans. Sagolikt ful som liten.",
+    "fraga2":null,
+    "svar1":"Svan",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Urdjur. Till hälften låter den som en ko. Även blandning av två drycker.",
+    "fraga2":null,
+    "svar1":"Gök",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Ses trots namnet under varmaste tiden. Ger dock ingen sådan årstid. Enligt operaduett  bör boet efterapas.",
+    "fraga2":null,
+    "svar1":"Svala",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Bör man inte slösa energi på i dessa tider. Förekommer som något fint i visst sömsammanhang. I sångsammanhang lär det vara mindre fint.",
+    "fraga2":null,
+    "svar1":"Kråka",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Förekommer som festlig rätt, dock ej som det kort sagt låter. Man skulle kanske kunna säga kidnappa istället för kalvskinn.",
+    "fraga2":null,
+    "svar1":"Rå",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Ofta född på hjul. Mer än stor.",
+    "fraga2":null,
+    "svar1":"Stork",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Himmelskt både stor och liten. Placerad före tjänst innebär det otjänst.",
+    "fraga2":null,
+    "svar1":"Björn",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Påstås förekomma bakom yttre organ. Spansk i teaterversion.",
+    "fraga2":null,
+    "svar1":"Räv",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Gudsdjur. Bestämt förekommer det i sportsammanhang. \"Hackspett\" heter likadant.",
+    "fraga2":null,
+    "svar1":"Korp",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Våtmark ger det mesta. Böj sticka och du får bostaden.",
+    "fraga2":null,
+    "svar1":"Myra",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Med minimal midja. Tvådelad = skänka sak.",
+    "fraga2":null,
+    "svar1":"Geting",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Låter först som rik skärgårdsöänka. Slutet satsar många på.",
+    "fraga2":null,
+    "svar1":"Flodhäst",
+    "svar2":null,
+    "orderno":14
+  }]
+},{
+  "tavling":"ordvandningen",
+  "rubrik":"Ordvändningen",
+  "date": "Sommaren 1992",
+  "intro":"Här söks ett ord som när det läses baklänges blir ett annat ord (t.ex. åt-tå). En ledtråd i vardera riktningen ges.",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1992. I prispotten fanns seglarsäckar, shoppingkassar, strandkuddar, handledsbörsar och nyckelringar.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 36 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"I en sådan tar man en lur",
+    "fraga2":"Något som har spårats ur",
+    "svar1":"Slaf|Fals",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Något som i hals brukar sitta",
+    "fraga2":"Kan med av vara svår att hitta",
+    "svar1":"Kork|Krok",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Sådana kan starka vara",
+    "fraga2":"Något som man kan besvara",
+    "svar1":"Verb|Brev",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Något som kan täcka hud",
+    "fraga2":"Kan man se efter brud",
+    "svar1":"Päls|Släp",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Det är ju jorden",
+    "fraga2":"Översätter orden",
+    "svar1":"Klot|Tolk",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Något som går tillbaka",
+    "fraga2":"En sådan kan man saka",
+    "svar1":"Retur|Ruter",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Sådan man ofta i handled tar",
+    "fraga2":"Flytetyg som blott en mast har",
+    "svar1":"Puls|Slup",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Då detta löps är det illa",
+    "fraga2":"I detta tillstånd står det stilla",
+    "svar1":"Amok|Koma",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Något vi kan virvla i",
+    "fraga2":"En sådan är ju inte fri",
+    "svar1":"Vals|Slav",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Serveras ofta till annan mat",
+    "fraga2":"Detta är en stad i stat",
+    "svar1":"Sallad|Dallas",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Bank man också sådan kan kalla",
+    "fraga2":"Sådan kan leda tanken till galla",
+    "svar1":"Revel|Lever",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Något för den som vill sitta",
+    "fraga2":"En hjälp för den som ska hitta",
+    "svar1":"Stol|Lots",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Det är en slug figur",
+    "fraga2":"Inget att höra på, eller hur?",
+    "svar1":"Smart|Trams",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Så kan plagget sitta därbak",
+    "fraga2":"Att ofta få höra samma sak",
+    "svar1":"Tajt|Tjat",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Sådan kan kanske ta bort ärgen",
+    "fraga2":"Bör man akta sig för i bergen",
+    "svar1":"Puts|Stup",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Någonting med skaft och blad",
+    "fraga2":"Ett tips som kanske gör dig glad",
+    "svar1":"Kniv|Vink",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"Sådan kan med sådan skena",
+    "fraga2":"Kan man byta mot allena",
+    "svar1":"Arab|Bara",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Ger ifrån sig vilda tjut",
+    "fraga2":"Absolut inte akut",
+    "svar1":"Varg|Grav",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Brukar ses i början av brev",
+    "fraga2":"Det var det den fale blev",
+    "svar1":"Datum|Mutad",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"Många tycker att sådana är fula",
+    "fraga2":"Plats för något med vita och gula",
+    "svar1":"Eder|Rede",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"Kan man vinsten kalla",
+    "fraga2":"Vara nära att falla",
+    "svar1":"Avans|Snava",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"Kan orsaka kraftig explosion",
+    "fraga2":"Kan stå för både bad och person",
+    "svar1":"Krut|Turk",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Förr i tiden en privilegierad klass",
+    "fraga2":"Känner kanske den som känner sig kass",
+    "svar1":"Adel|Leda",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Något man via testamente får",
+    "fraga2":"Det är långa tjocka hår",
+    "svar1":"Legat|Tagel",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"Det får ju varken stora eller små",
+    "fraga2":"Något som små vill höra på",
+    "svar1":"Agas|Saga",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Kan vara väldigt störande på natten",
+    "fraga2":"Kanske en produkt från blomsterrabatten",
+    "svar1":"Snark|Krans",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Verk som flera färger har",
+    "fraga2":"Kan man göra med ett kar",
+    "svar1":"Atlas|Salta",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Var en gång en mäktig person",
+    "fraga2":"Tillfälle till rekreation",
+    "svar1":"Tsar|Rast",
+    "svar2":null,
+    "orderno":28
+  },{
+    "fraga1":"Gör domptör för att åstadkomma lydnad",
+    "fraga2":"Sådan kan på plagg vara prydnad",
+    "svar1":"Snärt|Träns",
+    "svar2":null,
+    "orderno":29
+  },{
+    "fraga1":"Det kan korna göra",
+    "fraga2":"Kan man till likör ha",
+    "svar1":"Sina|Anis",
+    "svar2":null,
+    "orderno":30
+  },{
+    "fraga1":"Till sådan försöker folk flykta",
+    "fraga2":"Det ska ju en lykta",
+    "svar1":"Asyl|Lysa",
+    "svar2":null,
+    "orderno":31
+  },{
+    "fraga1":"Något viktigt på pist",
+    "fraga2":"Sitta i sådant är trist",
+    "svar1":"Gard|Drag",
+    "svar2":null,
+    "orderno":32
+  },{
+    "fraga1":"Ord som för kunglig står",
+    "fraga2":"Något som segraren får",
+    "svar1":"Regal|Lager",
+    "svar2":null,
+    "orderno":33
+  },{
+    "fraga1":"För sådan finns det särskilda glas",
+    "fraga2":"Här kan man träffa kulla och mas",
+    "svar1":"Arom|Mora",
+    "svar2":null,
+    "orderno":34
+  },{
+    "fraga1":"Att göra det är ju fel",
+    "fraga2":"Denna person spelar en del",
+    "svar1":"Nalla|Allan",
+    "svar2":null,
+    "orderno":35
+  },{
+    "fraga1":"Något för en uppsatt person",
+    "fraga2":"Kan man på grund av aversion",
+    "svar1":"Sadel|Ledas",
+    "svar2":null,
+    "orderno":36
+  }]
+},{
+  "tavling":"person",
+  "rubrik":"Snål information om person",
+  "date": "Sommaren 1981",
+  "intro":"Den givna informationen leder till en känd person - som kan vara en nu levande person, en historisk sådan men också en figur från sago- eller seriesammanhang.",
+  "info":"Tävlingen gick, tillsammans med tävlingen \"Här har du ett liv\", under namnet \"Snålskjutsen\" som sommartävling i Sydsvenskan 1981. Man tävlade om 10 resor till Skottland för två personer. Tänk på att vissa av personerna var aktuella runt 1981 och inte är lika kända idag.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 14 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"Börjar som gud följd av nalle. Resten motsats till vikt ut.",
+    "fraga2":null,
+    "svar1":"Thorbjörn Fälldin|Torbjörn Fälldin",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Låter som seger. Omtvistad följd. CG:s första.",
+    "fraga2":null,
+    "svar1":"Victoria",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Inte middagsstängt utan nästan motsatsen. Börjar som Cooper. Ny topp i bladriket.",
+    "fraga2":null,
+    "svar1":"Gary Engman",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Före detta WW-figur som fortsatt vara i skottlinjen. Mer än ett ärr. F n topp för FN-medlem (med vetorätt)",
+    "fraga2":null,
+    "svar1":"Ronald Reagan",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Periodiskt återkommande, färgrikt tecknad simfågel med rik farbror. Anders i Danmark.",
+    "fraga2":null,
+    "svar1":"Kalle Anka",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"PM i GB. Första damen på tian, där även WC fanns. \"Stål-kvinna\".",
+    "fraga2":null,
+    "svar1":"Margaret Thatcher",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"I uppblåst omgivning. Ville vara den förste även om efternamnet nästan skrivs på annat sätt. Äventyret snart \"uppdukat\".",
+    "fraga2":null,
+    "svar1":"S A Andrée|Andree|Andrée",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Hans sällskap till P-hus med elakt innehåll. Sagolik namne till \"den gåtfulla\".",
+    "fraga2":null,
+    "svar1":"Greta",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Urban herre med interurbana samtal som slutar med rena rama snurren på lördagsförmiddagarna.",
+    "fraga2":null,
+    "svar1":"Hasse Tellemar",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Börjar som ett franskt utrop börjar. Slutet börjar fåraktigt och slutar hårt. Har inte varit främmande för främmande verksamhet.",
+    "fraga2":null,
+    "svar1":"Ola Ullsten",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Dubbel-B-människa som tjänar peng genom däng med sträng. Fattar ofta dubbelt så mycket.",
+    "fraga2":null,
+    "svar1":"Björn Borg",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Efternamnet nästan först. Mångårig radioaktiv klubbverksamhet med tidig måltidsanknytning vid \"sockerbit\". Är trots åldern inte scenfärdig.",
+    "fraga2":null,
+    "svar1":"Sigge Fürst|Sigge Furst",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Efternamnet låter blott till hälften O.K. Har ofta satt färg på vit duk, bl.a. som dansk \"äventyrare\". Trots initialerna DK har han dock ej danskt påbrå.",
+    "fraga2":null,
+    "svar1":"Danny Kaye",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Trots allt inte någon dussinmänniska. Hans slut vid månadsslut firas ännu i vissa kretsar. Ytterligare information bör vara knapp.",
+    "fraga2":null,
+    "svar1":"Karl XII",
+    "svar2":null,
+    "orderno":14
+  }]
+},{
+  "tavling":"ordleken",
+  "rubrik":"Ordleken",
+  "date": "Sommaren 1984",
+  "intro":"Uppgiften i Ordleken är att identifiera ett antal rätt vanliga svenska ordspråk bakom lika många snåriga formuleringar.",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1984 och tjugo Norgeresor låg i vinstpotten.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"Ingen fällaffär förrän ägaren fällts.",
+    "fraga2":null,
+    "svar1":"Man ska inte sälja skinnet förrän björnen är skjuten|sälj inte skinnet förrän björnen är skjuten",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Horisontallägets kvalité beror på underlagets iordningställande.",
+    "fraga2":null,
+    "svar1":"Som man bäddar får man ligga",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Man fattar ej att något fattas förrän avbalkningen är ledig.",
+    "fraga2":null,
+    "svar1":"Man saknar inte kon förrän båset är tomt",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Jämställdhet ger optimalt resultat vid minderårigas tidsfördriv.",
+    "fraga2":null,
+    "svar1":"Lika barn leka bäst",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Lokalvårdsgrej av yngre modell ger förstklassigast resultat.",
+    "fraga2":null,
+    "svar1":"Nya kvastar sopar bäst",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Allena malör är enstaka.",
+    "fraga2":null,
+    "svar1":"En olycka kommer sällan ensam",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Ädel inre röst är toppen som knopputa.",
+    "fraga2":null,
+    "svar1":"Ett gott samvete är den bästa huvudkudden",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Otta innebär oralplacerat mineral.",
+    "fraga2":null,
+    "svar1":"Morgonstund har guld i mund",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Pyrosvett fyre flyr fyr.",
+    "fraga2":null,
+    "svar1":"Bränt barn skyr elden|Bränt barn flyr elden",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Ordentlig satsning ger femtioprocentig framgång.",
+    "fraga2":null,
+    "svar1":"Friskt vågat är hälften vunnet|friskt vågat hälften vunnet",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Ingen labial rörelse före cerebral verksamhet.",
+    "fraga2":null,
+    "svar1":"Tänk först och tala sedan",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Praxis på orten bör accepteras.",
+    "fraga2":null,
+    "svar1":"Man ska ta seden dit man kommer|ta seden dit du kommer",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Helt perfekt hela vägen vid fin final.",
+    "fraga2":null,
+    "svar1":"Slutet gott, allting gott|Slutet gott allting gott",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Ingen sans när pressprodukt fått chans.",
+    "fraga2":null,
+    "svar1":"Där vinet går in går vettet ut",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Spara hurtig hälsning till avklarad flödespassage.",
+    "fraga2":null,
+    "svar1":"Ropa inte hej förrän du är över bäcken|Man ska inte ropa hej förrän man är över bäcken",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Drivmedeltäckt grej upptäcks vid upptining.",
+    "fraga2":null,
+    "svar1":"Det som göms i snö kommer upp i tö",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"Fröhusförsett nedfall hamnar nära upphängsningsplatsen.",
+    "fraga2":null,
+    "svar1":"Äpplet faller inte långt från trädet",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Maximal labialt, minimal globalt.",
+    "fraga2":null,
+    "svar1":"Stor i orden, liten på jorden|Stor i orden liten på jorden",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Hel existens med insiktsinsupande.",
+    "fraga2":null,
+    "svar1":"Man lär så länge man lever",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"Fair play är drygare grej.",
+    "fraga2":null,
+    "svar1":"Ärlighet varar längst",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"Lågmäld skarvar.",
+    "fraga2":null,
+    "svar1":"Den som viskar, han ljuger|Den som viskar han ljuger|Den som viskar den ljuger",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"Missfäll misshandlas vid misshumör.",
+    "fraga2":null,
+    "svar1":"Arga katter får rivet skinn|Arga katter har rivet skinn",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Lågtempererade kardor, högtempererat tvåkammarsystem.",
+    "fraga2":null,
+    "svar1":"Kalla händer varmt hjärta|Kalla händer varmt hjärta.",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Besked bland stora fanerogamer beror på artikulationsnivån.",
+    "fraga2":null,
+    "svar1":"Som man ropar i skogen får man svar|Som man ropar får man svar",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"Minimala matlagningshjälpmedel saknar inte fattningsattiraljer.",
+    "fraga2":null,
+    "svar1":"Små grytor har också öron",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Samma val utan tal.",
+    "fraga2":null,
+    "svar1":"Den som tiger han samtycker|Den som tiger den samtycker|Den som tiger samtycker",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Fiasko efter hybris.",
+    "fraga2":null,
+    "svar1":"Högmod går före fall",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Diabolisk last kräver tvåårig transport till terra firma.",
+    "fraga2":null,
+    "svar1":"Har man tagit fan i båten får man ro honom i land",
+    "svar2":null,
+    "orderno":28
+  }]
+},{
+  "tavling":"kandisjakten",
+  "rubrik":"Kändisjakten",
+  "date": "Sommaren 1986",
+  "intro":"I Kändisjakten gäller det att lura ut vilka välkända personer &mdash; nu levande, historiska eller uppdiktade &mdash; som döljer sig bakom ett antal kryptiska, kortfattade beskrivningar.<br />Tänk på att formuleringarna skrevs 1986 och vissa kändisar (eller beskrivningar av dem) som var aktuella då kanske inte är det idag.",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1986 och i vinstpotten fanns bland annat tio resor för två personer till Moseldalen. ",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"Trots riktningsangivelse i efternamnet föredrar denna person att vara i mitten. Första systern i en lång serie av bröder. Hade för några år sedan fint jobb i palats",
+    "fraga2":null,
+    "svar1":"Karin Söder",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Svenska ord är inte främmande för denna person som i skepnad av många typer med samma efternamn låtit sig intervjuas av kompanjon.",
+    "fraga2":null,
+    "svar1":"Hans Alfredsson|Hasse Alfredsson",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Tidig grundstötare enligt gammal bokuppgift",
+    "fraga2":null,
+    "svar1":"Noa",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Prunus padus-detalj kan leda till den här personen som blev snabbt berömd tack vare hörbar främlingsverksamhet",
+    "fraga2":null,
+    "svar1":"Carola Häggkvist",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Spårar sällan ur men får ofta andra att göra det. Stavfel kan inverka menligt på verksamheten. Svans kan användas för att beteckna äganderätt",
+    "fraga2":null,
+    "svar1":"Gunde Svan",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Pusselläggare som haft press på sig hela våren. Om han hade gått i Gösses spår hade han sysslat med något annat. ",
+    "fraga2":null,
+    "svar1":"Hans Holmér|Hans holmer",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Som gammal räv bland ständigt unga medarbetare dyker denna journal-journalist upp i många hem på kvällstid med början i morse.",
+    "fraga2":null,
+    "svar1":"Bengt Fahlström",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Fan är ingen dålig början om man skall komma på denna figur. Ett omen är ej heller något dåligt slut.",
+    "fraga2":null,
+    "svar1":"Fantomen",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Ett större parti är sedan hösten utmärkande för denna person. Skjuter man in ett e före förnamnets sista bokstav blir resultatet däremot något magert.",
+    "fraga2":null,
+    "svar1":"Bengt Westerberg",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Chef i väst som nästan slutar som slagredskap. Bila kan också ge ledning. Vet hur man slipper kritik då man klipper.",
+    "fraga2":null,
+    "svar1":"Pehr G Gyllenhammar",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Grande dame från grannland, vars verksamhet långt söderut blivit aktualiserat i speciellt oscarianskt sammanhang",
+    "fraga2":null,
+    "svar1":"Karen Blixen",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Genant blev det om man stavade fel till efternamnet. Av samma orsak skulle det gå åt fanders med förnamnet. Inga hinder är honom främmande.",
+    "fraga2":null,
+    "svar1":"Anders Gernandt",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Tack vare den här personen fylldes en ”lada” inte bara i höstas utan en hel säsong. ”Ladans” placering är om man struntar i SJ identisk med efternamnet.",
+    "fraga2":null,
+    "svar1":"Jan Malmsjö",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Förlista ton har i ton skildrats av denna person. Många har även uppskattat det fina i kråksången.",
+    "fraga2":null,
+    "svar1":"Mikael Wiehe",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Mer än ett fall har raggats upp av denna person, vars verksamhet påstås vara av rekordformat. Gillar att vara i farten även om han ogillar att det (p)åtalas.",
+    "fraga2":null,
+    "svar1":"Jan Guillou",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Denna person adlades trots att han kan förknippas med knölar. Det innebar att han fick er med på slutet.",
+    "fraga2":null,
+    "svar1":"Jonas Alströmer",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"Erosanknuten Londonplats gjorde för mer än ett år sedan denna person känd. Förnamnet låter illa på slutet. ",
+    "fraga2":null,
+    "svar1":"Pernilla Wahlgren",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Kriminell verksamhet har sysselsatt denna skåning, som normalt befinner sig i förskingringen. Börjar som allvarlig i land söderut i kombination med slutet för litterär Victor.",
+    "fraga2":null,
+    "svar1":"Ernst-Hugo Järegård",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Nummer två enligt bok. Fruktkonsumtion fick fruktansvärda konsekvenser. Huruvida detta var synd kan diskuteras.",
+    "fraga2":null,
+    "svar1":"Eva",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"Medverkade i s-laget vid något som har sting i namnet men sattes sedan på plats i torgpalats i Malmö.",
+    "fraga2":null,
+    "svar1":"Bertil Göransson",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"I det långa loppet lär detta ha varit en föregångsman även om riktningen var den motsatta. Tillnamnet kan läsas som om det inte uppfattades.",
+    "fraga2":null,
+    "svar1":"Gustav Vasa",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"Bom har mer än en gång inneburit fullträff för denna person. Sten har också varit tungt vägande skäl för succéer. Bland buskar har personen regelbundet hållit till i det fria.",
+    "fraga2":null,
+    "svar1":"Nils Poppe",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Fick fint pris mer än en gång. Ena gången med äkta hälft för upptäckt av något strålande. Förnamnet rimmar bra med efternamnet. ",
+    "fraga2":null,
+    "svar1":"Marie Curie",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Misslyckat ”hat trick” gjorde att denna fotbollsspelande biobranschman fick ett magrare börsinnehåll. El kan vara en ledning.",
+    "fraga2":null,
+    "svar1":"Reefat El-Sayed",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"Speciell maskin och en massa saker har gjort denna person känd inte minst tillsammans med en namne till den som ville förstöra Kartago.",
+    "fraga2":null,
+    "svar1":"Sven Melander",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Kanske var det sista måltiden med speciell grupp som utsatte denna person för så stor press att han lämnade utåtriktad verksamhet och började med utbildning.",
+    "fraga2":null,
+    "svar1":"Lennart Bodström",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Radioaktivitet gav för den här personen ett strålade resultat. Många vill emellertid sätta P för honom. Det gör han för övrigt själv också före slutet. ",
+    "fraga2":null,
+    "svar1":"Carl P Herslow",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Hakan kommer främst på den här personen om man struntar i ringen. Utan rock blir han på slutet precis godkänd enligt gammal betygsättning. ",
+    "fraga2":null,
+    "svar1":"Håkan Brock",
+    "svar2":null,
+    "orderno":28
+  }]
+},{
+  "tavling":"dubbelnoten",
+  "rubrik":"Dubbelnöten",
+  "date": "Sommaren 1982",
+  "intro":"Det gäller dels att lura ut namnet på en viss svensk ort, dels att bestämma en växt. I uppgiften ställs ni inför en \"omformulerad ort\" och en \"kryptisk fanerogam\". Orten och växten har för övrigt en gemensam nämnare: växten är karakteristisk för det landskap där orten ligger och är i flertalet fall s.k. landskapsblomma.",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1982. Man tävlade om 20 resor till Berlin för två personer.",
+  "descript":"Skriv dina svar i rutorna. När du skrivit rätt svar på både ort och växt får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"Sångsamhälle.",
+    "fraga2":"Börjar med fångomgivning och slutar med klorofyllfärgat.",
+    "svar1":"Visby",
+    "svar2":"Murgröna",
+    "orderno":1
+  },{
+    "fraga1":"Blott.",
+    "fraga2":"I klerikal klädsel",
+    "svar1":"Bara",
+    "svar2":"Prästkrage",
+    "orderno":2
+  },{
+    "fraga1":"Brevfågelsvordom.",
+    "fraga2":"Solbränd moramö",
+    "svar1":"Duved",
+    "svar2":"Brunkulla",
+    "orderno":3
+  },{
+    "fraga1":"Omfamningströmdrag.",
+    "fraga2":"Börjar som fars nya fru och slutar med något blind får i viss visa.",
+    "svar1":"Kramfors",
+    "svar2":"Styvmorsviol",
+    "orderno":4
+  },{
+    "fraga1":"Myntenhetsbrygga.",
+    "fraga2":"Nämns av fyra blommor först i refrängen i sången som mannen som skrattande skuttar ur sängen.",
+    "svar1":"Örebro",
+    "svar2":"Gullviva",
+    "orderno":5
+  },{
+    "fraga1":"Tittasmått.",
+    "fraga2":"Himmelsfärgad höjd ger detta vackra ogräs.",
+    "svar1":"Kisa",
+    "svar2":"Blåklint",
+    "orderno":6
+  },{
+    "fraga1":"Floddialekt.",
+    "fraga2":"Komihågmig",
+    "svar1":"Åmål",
+    "svar2":"Förgätmigej",
+    "orderno":7
+  },{
+    "fraga1":"Brallenergivrå.",
+    "fraga2":"Börjar som något man kan få sting av och slutar som man kan bokens blad.",
+    "svar1":"Byxelkrok",
+    "svar2":"Solvända",
+    "orderno":8
+  },{
+    "fraga1":"Korrektbukt.",
+    "fraga2":"Flyttar man s:et som binder ihop namnets båda delar och sätter det främst, så blir det något som man kan säga att ett väckarur är med tanke på dess vanligaste placering.",
+    "svar1":"Rättvik",
+    "svar2":"Ängsklocka",
+    "orderno":9
+  },{
+    "fraga1":"Saunamyr.",
+    "fraga2":"En viss monarks värdighetstecken.",
+    "svar1":"Bastuträsk",
+    "svar2":"Kung Karls spira",
+    "orderno":10
+  },{
+    "fraga1":"Kloktamark.",
+    "fraga2":"Systemkonstruktör ger det mesta. Majflicka ger allt.",
+    "svar1":"Vislanda",
+    "svar2":"Linnea",
+    "orderno":11
+  },{
+    "fraga1":"Butiken.",
+    "fraga2":"Börjar som odlat fält eller far. Slutet kan i issammanhang vara motsats till brister.",
+    "svar1":"Boden",
+    "svar2":"Åkerbär",
+    "orderno":12
+  },{
+    "fraga1":"Jösseskuttet.",
+    "fraga2":"Börjar som svensk alp och slutar som sedesamma.",
+    "svar1":"Harsprånget",
+    "svar2":"Fjällsippa",
+    "orderno":13
+  },{
+    "fraga1":"Fingrusbukten.",
+    "fraga2":"Har fått speciell avskedsvisa. Kungen av dungen i poetiskt strövtåg.",
+    "svar1":"Sandviken",
+    "svar2":"Liljekonvalje|Liljekonvalj",
+    "orderno":14
+  },{
+    "fraga1":"Snillesvacka.",
+    "fraga2":"För den som bråkar och häcklar ligger svaret nära till hands. Speciell rock kan också vara en tråd att spinna vidare på.",
+    "svar1":"Ljusdal",
+    "svar2":"Lin",
+    "orderno":15
+  },{
+    "fraga1":"Båtkobbe.",
+    "fraga2":"Börjar som monarkistisk betesmark och slutar som halv persilja (s och l behövs däremellan)",
+    "svar1":"Skutskär",
+    "svar2":"Kungsängslilja",
+    "orderno":16
+  },{
+    "fraga1":"Kuddöverdragshöjd.",
+    "fraga2":"Börjar som något starkt och slutar som starkt börjar. Harris heter en släkting.",
+    "svar1":"Varberg",
+    "svar2":"Ginst",
+    "orderno":17
+  },{
+    "fraga1":"Gattsmur.",
+    "fraga2":"Låter som klotformat matfett.",
+    "svar1":"Sundsvall",
+    "svar2":"Smörboll",
+    "orderno":18
+  },{
+    "fraga1":"Vistasenbrastund.",
+    "fraga2":"Börjar moderatfärgad och slutar urartat.",
+    "svar1":"Borlänge",
+    "svar2":"Blåklocka",
+    "orderno":19
+  },{
+    "fraga1":"Barskudde.",
+    "fraga2":"Börjar så som man kan bada där den växer. Slutet innebär beröm.",
+    "svar1":"Strängnäs",
+    "svar2":"Näckros",
+    "orderno":20
+  },{
+    "fraga1":"Smolk",
+    "fraga2":"En duktig orienterare kan kanske kallas så. Ett annat namn på växten börjar som kuttervarelse och slutar som daladam. (Ett namn räcker)",
+    "svar1":"Grums",
+    "svar2":"Skogsstjärna eller duvkulla|Skogsstjärna|Duvkulla",
+    "orderno":21
+  },{
+    "fraga1":"Pippiragata.",
+    "fraga2":"Monarksnille",
+    "svar1":"Fågelmara",
+    "svar2":"Kungsljus",
+    "orderno":22
+  },{
+    "fraga1":"Talalågtströmdrag.",
+    "fraga2":"Över hed och militär överhet.",
+    "svar1":"Viskafors",
+    "svar2":"Ljung",
+    "orderno":23
+  },{
+    "fraga1":"Vilkensänkan.",
+    "fraga2":"Växer som namnets början anger på sandmark. Denna början var till 1968 förkortning för \"försvarlig\" klagoinsats. Slutet av namnet kan betyda pryda.",
+    "svar1":"Vemdalen",
+    "svar2":"Mosippa",
+    "orderno":24
+  },{
+    "fraga1":"Hudpålagehöjd",
+    "fraga2":"Kanske över pusspar. Balders bane. Tudelad = förlorat energi.",
+    "svar1":"Skinnskatteberg",
+    "svar2":"Mistel",
+    "orderno":25
+  },{
+    "fraga1":"Blemmeskur",
+    "fraga2":"Om man säger att denna växt är grann så har man tagit till.",
+    "svar1":"Kvissleby",
+    "svar2":"Gran",
+    "orderno":26
+  },{
+    "fraga1":"Näsvakta",
+    "fraga2":"Låter till en början som speciell mötesö i Medelhavet. Sen är folioformat alldeles för mycket. Luftsprång med instoppat f kan ge allt. Tarzan tar tag i kraftigare släktingar.",
+    "svar1":"Uddevalla",
+    "svar2":"Kaprifol",
+    "orderno":27
+  },{
+    "fraga1":"Släpasal",
+    "fraga2":"Dess krona är symbol för många kronors plats.",
+    "svar1":"Asarum",
+    "svar2":"Ek",
+    "orderno":28
+  }]
+},{
+  "tavling":"sommarcharaden",
+  "rubrik":"Sommarcharaden",
+  "date": "Sommaren 1990",
+  "intro":"Att lösa charader är en gammal lek som går ut på att finna fram till ett ord med hjälp av rimmande häntydningar.<br />Övningsexempel:<br />Mitt första är husets högsta parti.<br />Mitt andra med matte kopplat kan bli.<br />Mitt hela kan klaras med strategi.<br />Svar:Taktik",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1990. Man tävlade om 10 midjeväskor och 10 uppblåsbara nackstöd.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"Mitt första gör man för att bli hörd.<br />Mitt andraska man göra för att få skörd.<br />I mitt hela är man för insyn ej störd.",
+    "fraga2":null,
+    "svar1":"Berså",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Mitt första är en grekisk krumelur.<br />Mitt andra kan ha pinnar av fur.<br />Mitt hela kan ge träff i helfigur.",
+    "fraga2":null,
+    "svar1":"Pistol",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Mitt första man som lön söderut ger.<br />Mitt andra man rikligt norrut ser.<br />Mitt hela är något man fäller ner.",
+    "fraga2":null,
+    "svar1":"Markis",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Mitt första är plats med blommor och blad.<br />Mitt andra kommer först i ändlös rad.<br />Mitt hela har anknytning till estrad.",
+    "fraga2":null,
+    "svar1":"Parkett",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Mitt första runt om halsen tas.<br />Mitt andra istället för pinne kan has.<br />Mitt hela vid skärpningsdags kan dras.",
+    "fraga2":null,
+    "svar1":"Slipsten",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Mitt fösta är en feminin.<br />Mitt andra duger bra som skrin.<br />Mitt hela kan skydda knölen din.",
+    "fraga2":null,
+    "svar1":"Damask",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Mitt första är något man i skog kan gå.<br />Mitt andra brukar i lagård stå.<br />Mitt hela kan fattiga ha rätt små.",
+    "fraga2":null,
+    "svar1":"Villkor",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Mitt första förekommer som par.<br />I mitt andra många huggit har.<br />Genom mittt hela det avsiktligt drar.",
+    "fraga2":null,
+    "svar1":"Skorsten",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Mitt första används då man ska gå.<br />I mitt andra kanske kossa stå.<br />Mitt hela är något man fyller på.",
+    "fraga2":null,
+    "svar1":"Bensin",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Mitt första kan användas såsom tank.<br />Mitt andra anknytning har till bank.<br />Mitt hela kan göra människan krank.",
+    "fraga2":null,
+    "svar1":"Kärlek",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Mitt första kan vara ett dokument.<br />På mitt andra har många fordom känt.<br />Mitt hela kan rosas av recensent.",
+    "fraga2":null,
+    "svar1":"Aktris",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Mitt första kan sättas i en kamin.<br />Mitt andra var med i akademin.<br />Mitt hela är ett av flera glin.",
+    "fraga2":null,
+    "svar1":"Fyrling",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Mitt första brukar på handtag sitta.<br />På mitt andra brukar man dagligen titta.<br />Mitt hela bruka små skämt påhitta.",
+    "fraga2":null,
+    "svar1":"Filur",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Mitt första våra kläder förstör.<br />Mitt andra hörs då ont det gör.<br />Mitt hela till det militära hör.",
+    "fraga2":null,
+    "svar1":"Malaj",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Mitt första kan ha ett ornament.<br />Mitt andra har du dig kanske känt.<br />Mitt hela ordnas med permanent.",
+    "fraga2":null,
+    "svar1":"Frisyr",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Mitt första kan accenten vara.<br />Mitt andra kan med flit man klara.<br />Mitt hela blir femininum bara.",
+    "fraga2":null,
+    "svar1":"Gravid",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"Mitt första får man då det är tryggt.<br />Mitt andra sköter man vid rykt.<br />Mitt hela blir i bokform tryckt.",
+    "fraga2":null,
+    "svar1":"Roman",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Mitt första kan vara fylld med kött.<br />Mitt andra står föra något dött.<br />Mitt hela med konster oss förstrött.",
+    "fraga2":null,
+    "svar1":"Pajas",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Mitt första består av partiklar små.<br />Mitt andra brukar vid vatten stå.<br />Mitt hela som lätt på foten kan gå.",
+    "fraga2":null,
+    "svar1":"Sandal",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"Mitt första är ett fyrbent djur.<br />Mitt andra är en odlad kultur.<br />Mitt hela är en kufisk figur.",
+    "fraga2":null,
+    "svar1":"Stofil",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"Mitt första faller mjukt ibland.<br />Mitt andra ses i fjällrikt land.<br />Mitt hela står för flera band.",
+    "fraga2":null,
+    "svar1":"Snören",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"Mitt första är den som inte går.<br />Mitt andra man på fester höra får.<br />Mitt hela är en del av ett år.",
+    "fraga2":null,
+    "svar1":"Kvartal",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Mitt första kan till botten gå.<br />Med mitt andra kan du längre nå.<br />Mitt hela kan man i nödfall slå.",
+    "fraga2":null,
+    "svar1":"Alarm",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Mitt första består av nyttiga skal.<br />Mitt andra förknippas med särskild sal.<br />Om mitt hela kan meterolog hålla tal.",
+    "fraga2":null,
+    "svar1":"Klimat",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"Mitt första låter hånfullt ibland.<br />Mitt andra är ofta hålrikt band.<br />Mitt hela finns i muslimers land.",
+    "fraga2":null,
+    "svar1":"Harem",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Mitt första står för något skoj.<br />Mitt andra tar man på en hoj.<br />Mitt hela är ej blott Tolstoj.",
+    "fraga2":null,
+    "svar1":"Kultur",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Mitt första kan man ha i sommarhatten.<br />Mitt andra fylls via kran med vatten.<br />Mitt hela vid falskspel låter som katten.",
+    "fraga2":null,
+    "svar1":"Stråkar",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Mitt första är detsamma som skänka.<br />På mitt andra bruka hungriga tänka.<br />Mitt hela vid frånfälle blir en änka.",
+    "fraga2":null,
+    "svar1":"Gemål",
+    "svar2":null,
+    "orderno":28
+  }]
+},{
+  "tavling":"sommarsagan",
+  "rubrik":"Sommarsagan",
+  "date": "Sommaren 1985",
+  "intro":"Här ska du lura ut vilka sagor eller sagofigurer jag syftar på i mer eller mindre ”mystiska” rubriker. ",
+  "info":"Tävlingen gick som sommartävling i Sydsvenskan 1985 och tjugo Londonresor stod på spel.",
+  "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "questions":[{
+    "fraga1":"Falsk anförvant slukade bud",
+    "fraga2":null,
+    "svar1":"Rödluvan och vargen",
+    "svar2":null,
+    "orderno":1
+  },{
+    "fraga1":"Aldrig less trots allt mindre dress",
+    "fraga2":null,
+    "svar1":"Mäster Skräddare",
+    "svar2":null,
+    "orderno":2
+  },{
+    "fraga1":"Naken sanning avslöjad av minderårig",
+    "fraga2":null,
+    "svar1":"Kejsarens nya kläder",
+    "svar2":null,
+    "orderno":3
+  },{
+    "fraga1":"Fick liv och kom i bråk med täljaren",
+    "fraga2":null,
+    "svar1":"Pinocchio",
+    "svar2":null,
+    "orderno":4
+  },{
+    "fraga1":"Fick format som sak på fat",
+    "fraga2":null,
+    "svar1":"Teskedsgumman",
+    "svar2":null,
+    "orderno":5
+  },{
+    "fraga1":"Jätteförlust vid matkamp",
+    "fraga2":null,
+    "svar1":"Pojken som åt i kapp med jätten",
+    "svar2":null,
+    "orderno":6
+  },{
+    "fraga1":"Sov som stock efter chock vid rock",
+    "fraga2":null,
+    "svar1":"Törnrosa",
+    "svar2":null,
+    "orderno":7
+  },{
+    "fraga1":"Tös som frös strök men strök med",
+    "fraga2":null,
+    "svar1":"Den lilla flickan med svavelstickorna|Flickan med svavelstickorna",
+    "svar2":null,
+    "orderno":8
+  },{
+    "fraga1":"Högt uppsatt for norrut",
+    "fraga2":null,
+    "svar1":"Nils Holgersson",
+    "svar2":null,
+    "orderno":9
+  },{
+    "fraga1":"Hårt läger trots lager",
+    "fraga2":null,
+    "svar1":"Prinsessan på ärten",
+    "svar2":null,
+    "orderno":10
+  },{
+    "fraga1":"Lockades in bak bakport",
+    "fraga2":null,
+    "svar1":"Hans och Greta",
+    "svar2":null,
+    "orderno":11
+  },{
+    "fraga1":"Tog ej kål – först i mål",
+    "fraga2":null,
+    "svar1":"Igelkotten och haren",
+    "svar2":null,
+    "orderno":12
+  },{
+    "fraga1":"Hornstöt brått slut för brovakt",
+    "fraga2":null,
+    "svar1":"De tre bockarna bruse|Tre bockarna bruse|Bockarna bruse",
+    "svar2":null,
+    "orderno":13
+  },{
+    "fraga1":"Hjärtbyte hjälpte ej – stor hjälp fanns hos små",
+    "fraga2":null,
+    "svar1":"Snövit",
+    "svar2":null,
+    "orderno":14
+  },{
+    "fraga1":"Trist början – slutet en svans",
+    "fraga2":null,
+    "svar1":"Den fula ankungen",
+    "svar2":null,
+    "orderno":15
+  },{
+    "fraga1":"Dyster syster prinskvinns",
+    "fraga2":null,
+    "svar1":"Askungen",
+    "svar2":null,
+    "orderno":16
+  },{
+    "fraga1":"Ensamboende djurägare icke prickfri",
+    "fraga2":null,
+    "svar1":"Pippi Långstrump",
+    "svar2":null,
+    "orderno":17
+  },{
+    "fraga1":"Felgjuten ljöt smältdöd med dansös",
+    "fraga2":null,
+    "svar1":"Den ståndaktige tennsoldaten",
+    "svar2":null,
+    "orderno":18
+  },{
+    "fraga1":"Robins vän på jakt efter bigott",
+    "fraga2":null,
+    "svar1":"Nalle Puh",
+    "svar2":null,
+    "orderno":19
+  },{
+    "fraga1":"Rå försökte gå på det hala",
+    "fraga2":null,
+    "svar1":"Bambi",
+    "svar2":null,
+    "orderno":20
+  },{
+    "fraga1":"Huvudboning eldhärjad – byggde nytt på tomten med dennes hjälp",
+    "fraga2":null,
+    "svar1":"Hattstugan",
+    "svar2":null,
+    "orderno":21
+  },{
+    "fraga1":"2,54 cm till varma länder med svala",
+    "fraga2":null,
+    "svar1":"Tummelisa",
+    "svar2":null,
+    "orderno":22
+  },{
+    "fraga1":"Fyndande hamnade i returkärl",
+    "fraga2":null,
+    "svar1":"Anden i flaskan",
+    "svar2":null,
+    "orderno":23
+  },{
+    "fraga1":"Isolerad i avhyvlingslokal efter hissningshyss",
+    "fraga2":null,
+    "svar1":"Emil i Lönneberga",
+    "svar2":null,
+    "orderno":24
+  },{
+    "fraga1":"Lomhörd täljare tokig svarare",
+    "fraga2":null,
+    "svar1":"Goddag yxskaft",
+    "svar2":null,
+    "orderno":25
+  },{
+    "fraga1":"Utan slut i universitetsmiljö",
+    "fraga2":null,
+    "svar1":"Pelle Svanslös",
+    "svar2":null,
+    "orderno":26
+  },{
+    "fraga1":"Banditbarn fick fäder på bättre tankar",
+    "fraga2":null,
+    "svar1":"Ronja Rövardotter",
+    "svar2":null,
+    "orderno":27
+  },{
+    "fraga1":"Friareframgång för förment menlös",
+    "fraga2":null,
+    "svar1":"Dummerjöns",
+    "svar2":null,
+    "orderno":28
+  }]
+}]

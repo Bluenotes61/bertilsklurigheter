@@ -1,0 +1,65 @@
+.tab a.klurig {
+  opacity: 1;
+}
+
+.opener {
+  display: block;
+  background: #5B889D url(../gfx/open-right.svg) right 10px center no-repeat;
+  color: #fff;
+  padding:10px;
+  border:solid 1px #fff;
+  text-align: center;
+}
+.opener:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+.opener.open {
+  background-image: url(../gfx/open-down.svg);
+}
+.opener .ohead {
+  font-size: 140%;
+}
+.opener .odate {
+  font-size: 80%;
+}
+.gamecontent {
+  display: none;
+  border: solid 1px #5B889D;
+}
+.answer {
+  display: none;
+}
+
+.intro {
+  padding:20px;
+}
+.onequestion {
+  padding:20px;
+  background: #f5f5f5;
+  margin-bottom:20px;
+}
+.question {
+  font-weight: bold;
+}
+.leftinfo {
+  float:left;
+  width: 70%;
+  padding-right:40px;
+}
+.image {
+  width:30%;
+  float: right;
+  text-align: right;
+}
+.description {
+  margin:10px 0;
+  font-size: 120%;
+}
+.info {
+  font-style: italic;
+}
+.answerlink {
+  color: #BA5134;
+}
+
