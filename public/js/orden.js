@@ -198,7 +198,7 @@ $(document).ready(function () {
   function charEnter (e) {
     if ((e.keyCode >= 65 && e.keyCode <= 90) ||
       e.keyCode === 221 || e.keyCode === 222 || e.keyCode === 192) {
-      selected.letter = String.fromCharCode(e.keyCode).toUpperCase()
+      selected.letter = e.key.toUpperCase()
       var nextNr = (selected.nr + 1) % puzzle.nofBoxes
       selectBox(boxes[nextNr])
       checkSolution()
