@@ -13,6 +13,9 @@ $(document).ready(function () {
   function init () {
     getCookie()
 
+    puzzles.sort(function (p1, p2) {
+      return p1.number > p2.number
+    })
     for (var p = 0; p < puzzles.length; p++) {
       $('.selpuzzle select').append('<option value="' + p + '">' + puzzles[p].week + (puzzles[p].solved ? ' (Löst)' : '') + '</option>')
     }
