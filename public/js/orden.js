@@ -200,7 +200,7 @@ $(document).ready(function () {
 
   function charEnter (e) {
     if ((e.keyCode >= 65 && e.keyCode <= 90) ||
-      e.keyCode === 221 || e.keyCode === 222 || e.keyCode === 192) {
+      e.key.toUpperCase() === 'Å' || e.key.toUpperCase() === 'Ä' || e.key.toUpperCase() === 'Ö') {
       selected.letter = e.key.toUpperCase()
       var nextNr = (selected.nr + 1) % puzzle.nofBoxes
       selectBox(boxes[nextNr])
