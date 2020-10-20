@@ -10,6 +10,12 @@ exports.index = async (req, res, next) => {
   res.render('orden', { puzzles })
 }
 
+const getDate = (nr) => {
+  const week = (40 + nr) % 52 + 1
+  const year = Math.trunc((40 + nr) / 52) + 1984
+  return { week, year }
+}
+
 const readPuzzles = async () => {
   const directoryPath = path.join(appRoot, 'puzzles')
   const files = await readdir(directoryPath)
@@ -22,8 +28,7 @@ const readPuzzles = async () => {
   for (const file of files) {
     const apath = path.join(appRoot, 'puzzles', file)
     const nr = parseInt(path.basename(apath).split('.')[0])
-    const week = (40 + nr) % 52 + 1
-    const year = Math.trunc((40 + nr) / 52) + 1984
+    const { week, year } = getDate(nr)
     const puzzleTxt = await readFile(apath, 'utf8')
     const lines = puzzleTxt.split('\n')
     puzzles.push({
@@ -42,6 +47,7 @@ const readPuzzles = async () => {
         lines[9].trim()
       ]
     })
+    puzzles.sort((p1, p2) => p1.number - p2.number)
   }
   return puzzles
 }
