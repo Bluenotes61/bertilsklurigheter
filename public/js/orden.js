@@ -63,7 +63,11 @@ $(document).ready(function () {
         solved += puzzles[j].number
       }
     }
-    document.cookie = 'solved = ' + solved + ';'
+
+    var now = new Date()
+    now.setTime(now.getTime() + 356 * 24 * 3600 * 1000)
+
+    document.cookie = 'solved=' + solved + ';expires=' + now.toGMTString() + ';'
   }
 
   function selectPuzzle () {
