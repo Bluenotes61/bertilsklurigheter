@@ -96,12 +96,12 @@ input, textarea {
   height: 135px;
 }
 .topbar .header {
-  width: 60%;
+  width: 59%;
   text-align: center;
   padding:20px 0;
 }
 .topbar .fb {
-  margin-top:20px;
+  margin-top:10px;
   margin-right:10px;
   width: 20%;
   text-align: center;
@@ -140,6 +140,7 @@ input, textarea {
 
 .main {
   margin-top: 10px;
+  padding: 0 3%;
 }
 .content {
   max-width: 1200px;
