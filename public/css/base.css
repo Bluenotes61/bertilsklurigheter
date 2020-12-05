@@ -131,7 +131,7 @@ input, textarea {
 }
 .tab {
   display: inline-block;
-  margin:0 3px;
+  margin:0 5px;
 }
 .tab a {
   display: block;
@@ -208,5 +208,11 @@ input, textarea {
     width:100%;
     float: none;
     text-align: center;
+  }
+  .tab {
+    margin:0 2px;
+  }
+  .tab a {
+    padding: 8px 15px;    
   }
 }
