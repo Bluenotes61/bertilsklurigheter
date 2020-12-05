@@ -57,6 +57,9 @@ $(document).ready(function () {
       }
       var a = $('<a id="' + puzzles[i].number + '" >Vecka ' + puzzles[i].week + '</a>')
       if (puzzles[i].solved) a.addClass('solved')
+      var started = puzzles[i].try.find(function (t) { return t })
+      if (started) a.addClass('started')
+
       currDiv.append(a)
     }
     $('.select').append(currDiv)
@@ -208,6 +211,7 @@ $(document).ready(function () {
       var nextNr = (selectedBox.nr + 1) % puzzle.nofBoxes
       selectBox(boxes[nextNr])
       $('.wordbox').removeClass('error')
+      $('.select a#' + puzzle.number).addClass('started')
       checkSolution()
     } else if (e.keyCode === 8 || e.keyCode === 46) {
       selectedBox.letter = ''
@@ -298,9 +302,7 @@ $(document).ready(function () {
         }
       }
 
-console.log(tries)
       tries = fixOldCookie(cookies, tries)
-console.log(tries)      
 
       if (tries) {
         for (var j = 0; j < tries.length; j++) {
