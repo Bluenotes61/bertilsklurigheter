@@ -151,6 +151,23 @@ input, textarea {
   text-align: center;
 }
 
+.description {
+  max-width: 80%;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+.description h2 {
+  margin: 40px 0 20px 0;
+}
+.description p {
+  font-size: 120%;
+  line-height: 140%;
+  margin: 16px 0 0 0;
+}
+.description p.fet {
+  font-weight: bold;
+}
+
 @media(max-width: 600px) {
   .topbar .img {
     float:none;
