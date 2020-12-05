@@ -33,7 +33,8 @@ const readPuzzles = async () => {
     const lines = puzzleTxt.split('\n')
     puzzles.push({
       number: nr,
-      week: `Vecka ${week}, ${year}`,
+      year: year,
+      week: week,
       numberString: lines[0].trim(),
       solutionString: lines[1].trim(),
       leads: [
@@ -47,7 +48,7 @@ const readPuzzles = async () => {
         lines[9].trim()
       ]
     })
-    puzzles.sort((p1, p2) => p1.number - p2.number)
   }
+  puzzles.sort((p1, p2) => p1.number - p2.number)
   return puzzles
 }

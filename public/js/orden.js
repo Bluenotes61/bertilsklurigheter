@@ -1,4 +1,4 @@
-/* global $ */
+/* global $ puzzles */
 $(document).ready(function () {
   var radius = 200
   var nrOffset = 20
@@ -13,13 +13,7 @@ $(document).ready(function () {
   function init () {
     getCookie()
 
-    puzzles.sort(function (p1, p2) {
-      return p1.number > p2.number
-    })
-    for (var p = 0; p < puzzles.length; p++) {
-      $('.selpuzzle select').append('<option value="' + p + '">' + puzzles[p].week + (puzzles[p].solved ? ' (Löst)' : '') + '</option>')
-    }
-    puzzleSelected(0)
+    buildSelect()
 
     $(document).on('keydown', function (e) {
       if (e.which === 8) e.preventDefault()
@@ -33,9 +27,37 @@ $(document).ready(function () {
       $('.puzzlearea').removeClass('success')
     })
 
-    $('.selpuzzle select').on('change', selectPuzzle)
+    $('.openselect').on('click', function () {
+      $('.select').slideToggle()
+      $(this).toggleClass('selected')
+    })
 
-    drawBoxes()
+    $('.select a').on('click', function () {
+      selectPuzzle(this.id)
+    })
+
+    selectPuzzle(puzzles[0].number)
+  }
+
+  function buildSelect () {
+    function getYearDiv (year) {
+      return $('<div class="yearsel"><div class="year">' + year + '</div></div>')
+    }
+    var currYear = 0
+    var currDiv = null
+    for (var i = 0; i < puzzles.length; i++) {
+      if (puzzles[i].year !== currYear) {
+        if (currDiv) {
+          $('.select').append(currDiv)
+        }
+        currYear = puzzles[i].year
+        currDiv = getYearDiv(currYear)
+      }
+      var a = $('<a id="' + puzzles[i].number + '" >Vecka ' + puzzles[i].week + '</a>')
+      if (puzzles[i].solved) a.addClass('solved')
+      currDiv.append(a)
+    }
+    $('.select').append(currDiv)
   }
 
   function getCookie () {
@@ -70,15 +92,17 @@ $(document).ready(function () {
     document.cookie = 'solved=' + solved + ';expires=' + now.toGMTString() + ';'
   }
 
-  function selectPuzzle () {
-    $('.puzzlearea').removeClass('success')
-    puzzleSelected(this.value)
+  function selectPuzzle (nr) {
+    puzzleSelected(nr)
     currAngle = 0
     drawBoxes()
+    $('.puzzlearea').removeClass('success')
+    $('.week').text('Vecka ' + puzzle.week + ', ' + puzzle.year)
+    $('.select').slideUp()
   }
 
   function puzzleSelected (nr) {
-    puzzle = puzzles[nr]
+    puzzle = puzzles.find(function (p) { return p.number === parseInt(nr) })
 
     puzzle.numbers = []
     for (var p = 0; p < puzzle.numberString.length; p++) {

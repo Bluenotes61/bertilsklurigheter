@@ -1,3 +1,20 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:first-child {
+  margin-top: 0;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 .tab a.orden {
   opacity: 1;
 }
@@ -13,8 +30,52 @@
 }
 .selpuzzle {
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
+.openselect {
+  background: #BA5134;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.openselect:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+.openselect.selected {
+  opacity: 0.7;
+}
+.openselect.selected:hover {
+  opacity: 1;
+}
+.select {
+  display: none;
+}
+.select .yearsel {
+  float: left;
+  margin: 20px 10px 0 10px;
+}
+.select .yearsel .year {
+  font-weight: bold;
+}
+.select .yearsel a {
+  cursor: pointer;
+  display: block; 
+}
+.select .yearsel a.solved {
+  opacity: 0.5;
+}
+.select .yearsel a.solved:hover {
+  opacity: 1;
+}
+.select .yearsel a.solved::after {
+  content: " (Löst)";
+}
+.week {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .leads {
   position: relative;
   display: inline-block;
