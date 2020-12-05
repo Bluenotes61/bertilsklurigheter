@@ -292,14 +292,15 @@ $(document).ready(function () {
       }
 
       if (!tries) {
-        tries = ''
+        tries = []
         for (var t = 0; t < puzzles.length; t++) {
-          if (tries.length > 0) tries += ','
-          tries += puzzles[t].number + '.-'
+          tries.push(puzzles[t].number + ',-')
         }
       }
 
+console.log(tries)
       tries = fixOldCookie(cookies, tries)
+console.log(tries)      
 
       if (tries) {
         for (var j = 0; j < tries.length; j++) {
