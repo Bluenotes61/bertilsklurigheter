@@ -37,6 +37,7 @@ const readPuzzles = async () => {
       week: week,
       numberString: lines[0].trim(),
       solutionString: lines[1].trim(),
+      nofBoxes: lines[1].trim().length,
       leads: [
         lines[2].trim(),
         lines[3].trim(),
