@@ -63,13 +63,13 @@
   display: block; 
   opacity: 0.5;
 }
+.select .yearsel a:hover {
+  opacity: 1;
+}
 .select .yearsel a.solved {
   opacity: 1;
 }
 .select .yearsel a.started {
-  opacity: 1;
-}
-.select .yearsel a.solved:hover {
   opacity: 1;
 }
 .select .yearsel a.solved::after {
@@ -82,6 +82,7 @@
 .week {
   text-align: center;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .leads {
