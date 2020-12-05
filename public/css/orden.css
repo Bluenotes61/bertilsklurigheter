@@ -50,6 +50,10 @@
 }
 .select {
   display: none;
+  border: solid 2px #5B889D;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 10px;
 }
 .select .yearsel {
   float: left;
@@ -108,7 +112,7 @@
   text-align: center;
   display: none;
   background: #fff;
-  border: solid 3px #BA5134;
+  border: solid 3px #5B889D;
   border-radius: 8px;
   padding: 20px;
 }
@@ -121,7 +125,7 @@
   width: 25px;
 }
 .successarea .close:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .puzzlearea.success .title, .puzzlearea.success .puzzle {
   opacity: 0.3;

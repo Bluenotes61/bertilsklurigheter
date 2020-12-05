@@ -79,7 +79,8 @@ input, textarea {
 }
 .button.active,
 .button:hover {
-  color:#eee;
+  color:#fff;
+  opacity: 0.7;
 }
 .button.inactive {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
