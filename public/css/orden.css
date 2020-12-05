@@ -71,6 +71,10 @@
 .select .yearsel a.solved::after {
   content: " (Löst)";
 }
+.select .yearsel a.current {
+  font-weight: bold;
+  color: #5B889D;
+}
 .week {
   text-align: center;
   margin-bottom: 20px;
@@ -100,6 +104,7 @@
   display: none;
   background: #fff;
   border: solid 3px #BA5134;
+  border-radius: 8px;
   padding: 20px;
 }
 .successarea .close {

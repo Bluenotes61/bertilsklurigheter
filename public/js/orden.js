@@ -28,6 +28,8 @@ $(document).ready(function () {
     })
 
     $('.openselect').on('click', function () {
+      $('.select .yearsel a').removeClass('current')
+      $('.select a#' + puzzle.number).addClass('current')
       $('.select').slideToggle()
       $(this).toggleClass('selected')
     })
@@ -93,17 +95,17 @@ $(document).ready(function () {
   }
 
   function selectPuzzle (nr) {
-    puzzleSelected(nr)
-    currAngle = 0
-    drawBoxes()
+    puzzle = puzzles.find(function (p) { return p.number === parseInt(nr) })
     $('.puzzlearea').removeClass('success')
     $('.week').text('Vecka ' + puzzle.week + ', ' + puzzle.year)
     $('.select').slideUp()
+
+    puzzleSelected(puzzle)
+    currAngle = 0
+    drawBoxes()
   }
 
-  function puzzleSelected (nr) {
-    puzzle = puzzles.find(function (p) { return p.number === parseInt(nr) })
-
+  function puzzleSelected (puzzle) {
     puzzle.numbers = []
     for (var p = 0; p < puzzle.numberString.length; p++) {
       if (puzzle.numberString[p] !== ' ') puzzle.numbers.push(p + 1)
@@ -255,10 +257,7 @@ $(document).ready(function () {
       puzzle.solved = true
       saveCookie()
 
-      var sel = $('.selpuzzle select option:selected')
-      if (sel.text().indexOf('(Löst)') < 0) {
-        sel.text(sel.text() + ' (Löst)')
-      }
+      $('.select a#' + puzzle.number).addClass('solved')
 
       $('.puzzlearea').addClass('success')
     }
