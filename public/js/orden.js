@@ -256,7 +256,6 @@ $(document).ready(function () {
   }
 
   function fixOldCookie (cookies, tries) {
-    if (!tries) return
     var solved = null
     for (var i = 0; i < cookies.length; i++) {
       var cookieArr = cookies[i].split('=')
@@ -289,6 +288,14 @@ $(document).ready(function () {
         var cookieArr = cookies[i].split('=')
         if (cookieArr[0].trim() === 'tries') {
           tries = cookieArr[1].split('|')
+        }
+      }
+
+      if (!tries) {
+        tries = ''
+        for (var t = 0; t < puzzles.length; t++) {
+          if (tries.length > 0) tries += ','
+          tries += puzzles[t].number + '.-'
         }
       }
 
