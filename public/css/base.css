@@ -64,8 +64,15 @@ input, textarea {
   display: inline-block;
   text-align:center;
   background:#BA5134;
+  border-radius: 8px;
   color:#fff;
   padding:10px 20px;
+  font-size: 22px;
+}
+.button.small {
+  font-size: 60%;
+  padding: 1px 8px;
+  border-radius: 4px;
 }
 .button.blue {
   background: #5B889D;

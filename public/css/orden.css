@@ -114,8 +114,14 @@
 }
 .successarea .close {
   position: absolute;
-  top: 0;
+  top: 3px;
   right: 3px;
+}
+.successarea .close img {
+  width: 25px;
+}
+.successarea .close:hover {
+  opacity: 0.8;
 }
 .puzzlearea.success .title, .puzzlearea.success .puzzle {
   opacity: 0.3;
@@ -173,15 +179,7 @@
   margin-top: 30px;
   margin-left: 30px;
 }
-.cheat a {
-  font-size: 60%;
-  padding: 1px 8px;
-}
 .forget {
   text-align: center;
   margin-top: 20px;
-}
-.forget a {
-  font-size: 60%;
-  padding: 1px 8px;
 }
