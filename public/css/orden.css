@@ -7,14 +7,6 @@
   margin-top: 0;
 }
 
-.clearfix:after {
-   content: " ";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
-
 .tab a.orden {
   opacity: 1;
 }
@@ -49,18 +41,18 @@
   opacity: 1;
 }
 .select {
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
   border: solid 2px #5B889D;
   border-radius: 8px;
-  padding: 20px;
   margin-top: 10px;
 }
 .select .yearsel {
-  float: left;
-  margin: 20px 10px 0 10px;
+  padding: 20px;
 }
 .select .yearsel .year {
   font-weight: bold;
+  display: block; 
 }
 .select .yearsel a {
   cursor: pointer;
