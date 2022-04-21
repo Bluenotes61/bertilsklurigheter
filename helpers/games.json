@@ -501,6 +501,7 @@
   "intro":"Här söks ett ord som när det läses baklänges blir ett annat ord (t.ex. åt-tå). En ledtråd i vardera riktningen ges.",
   "info":"Tävlingen gick som sommartävling i Sydsvenskan 1992. I prispotten fanns seglarsäckar, shoppingkassar, strandkuddar, handledsbörsar och nyckelringar.",
   "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 36 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 9,
   "questions":[{
     "fraga1":"I en sådan tar man en lur",
     "fraga2":"Något som har spårats ur",
@@ -725,6 +726,7 @@
   "intro":"Den givna informationen leder till en känd person - som kan vara en nu levande person, en historisk sådan men också en figur från sago- eller seriesammanhang.",
   "info":"Tävlingen gick, tillsammans med tävlingen \"Här har du ett liv\", under namnet \"Snålskjutsen\" som sommartävling i Sydsvenskan 1981. Man tävlade om 10 resor till Skottland för två personer. Tänk på att vissa av personerna var aktuella runt 1981 och inte är lika kända idag.",
   "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 14 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 1,
   "questions":[{
     "fraga1":"Börjar som gud följd av nalle. Resten motsats till vikt ut.",
     "fraga2":null,
@@ -817,6 +819,7 @@
   "intro":"Uppgiften i Ordleken är att identifiera ett antal rätt vanliga svenska ordspråk bakom lika många snåriga formuleringar.",
   "info":"Tävlingen gick som sommartävling i Sydsvenskan 1984 och tjugo Norgeresor låg i vinstpotten.",
   "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 4,
   "questions":[{
     "fraga1":"Ingen fällaffär förrän ägaren fällts.",
     "fraga2":null,
@@ -993,6 +996,7 @@
   "intro":"I Kändisjakten gäller det att lura ut vilka välkända personer &mdash; nu levande, historiska eller uppdiktade &mdash; som döljer sig bakom ett antal kryptiska, kortfattade beskrivningar.<br />Tänk på att formuleringarna skrevs 1986 och vissa kändisar (eller beskrivningar av dem) som var aktuella då kanske inte är det idag.",
   "info":"Tävlingen gick som sommartävling i Sydsvenskan 1986 och i vinstpotten fanns bland annat tio resor för två personer till Moseldalen. ",
   "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 6,
   "questions":[{
     "fraga1":"Trots riktningsangivelse i efternamnet föredrar denna person att vara i mitten. Första systern i en lång serie av bröder. Hade för några år sedan fint jobb i palats",
     "fraga2":null,
@@ -1169,6 +1173,7 @@
   "intro":"Det gäller dels att lura ut namnet på en viss svensk ort, dels att bestämma en växt. I uppgiften ställs ni inför en \"omformulerad ort\" och en \"kryptisk fanerogam\". Orten och växten har för övrigt en gemensam nämnare: växten är karakteristisk för det landskap där orten ligger och är i flertalet fall s.k. landskapsblomma.",
   "info":"Tävlingen gick som sommartävling i Sydsvenskan 1982. Man tävlade om 20 resor till Berlin för två personer.",
   "descript":"Skriv dina svar i rutorna. När du skrivit rätt svar på både ort och växt får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 2,
   "questions":[{
     "fraga1":"Sångsamhälle.",
     "fraga2":"Börjar med fångomgivning och slutar med klorofyllfärgat.",
@@ -1345,6 +1350,7 @@
   "intro":"Att lösa charader är en gammal lek som går ut på att finna fram till ett ord med hjälp av rimmande häntydningar.<br />Övningsexempel:<br />Mitt första är husets högsta parti.<br />Mitt andra med matte kopplat kan bli.<br />Mitt hela kan klaras med strategi.<br />Svar:Taktik",
   "info":"Tävlingen gick som sommartävling i Sydsvenskan 1990. Man tävlade om 10 midjeväskor och 10 uppblåsbara nackstöd.",
   "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 7,
   "questions":[{
     "fraga1":"Mitt första gör man för att bli hörd.<br />Mitt andraska man göra för att få skörd.<br />I mitt hela är man för insyn ej störd.",
     "fraga2":null,
@@ -1521,6 +1527,7 @@
   "intro":"Här ska du lura ut vilka sagor eller sagofigurer jag syftar på i mer eller mindre ”mystiska” rubriker. ",
   "info":"Tävlingen gick som sommartävling i Sydsvenskan 1985 och tjugo Londonresor stod på spel.",
   "descript":"Skriv ditt svar i rutan. När du skriver rätt svar får du en ny uppgift.<br />Totalt finns det 28 uppgifter. Lycka till!","tips":"Vill du ha en ledtråd så fråga mig gärna eller skriv ett inlägg på<br />Bertils klurigheter.",
+  "orderNo": 5,
   "questions":[{
     "fraga1":"Falsk anförvant slukade bud",
     "fraga2":null,
