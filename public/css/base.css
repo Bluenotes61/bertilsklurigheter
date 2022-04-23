@@ -109,6 +109,7 @@ input, textarea {
   padding:20px 0;
 }
 .topbar .fb {
+  display: none !important;
   margin-top:10px;
   margin-right:10px;
   width: 20%;
