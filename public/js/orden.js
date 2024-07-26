@@ -1,4 +1,4 @@
-/* global $ */
+/* global $ puzzles */
 $(document).ready(function () {
   var radius = 200
   var nrOffset = 20
@@ -6,17 +6,14 @@ $(document).ready(function () {
   var spinAmount = 10
   var currAngle = 0
   var finalAngle = 0
-  var selected = null
+  var selectedBox = null
   var boxes = []
   var puzzle = null
 
   function init () {
-    getCookie()
+    readCookie()
 
-    for (var p = 0; p < puzzles.length; p++) {
-      $('.selpuzzle select').append('<option value="' + p + '">' + puzzles[p].week + (puzzles[p].solved ? ' (Löst)' : '') + '</option>')
-    }
-    puzzleSelected(0)
+    buildSelect()
 
     $(document).on('keydown', function (e) {
       if (e.which === 8) e.preventDefault()
@@ -26,64 +23,83 @@ $(document).ready(function () {
 
     $('.cheat a').on('click', cheat)
     $('.forget a').on('click', forget)
+    $('.successarea .close a').on('click', function () {
+      $('.puzzlearea').removeClass('success')
+    })
 
-    $('.selpuzzle select').on('change', selectPuzzle)
+    $('.openselect').on('click', function () {
+      $('.select .yearsel a').removeClass('current')
+      $('.select a#' + puzzle.number).addClass('current')
+      $('.select').slideToggle()
+      $(this).toggleClass('selected')
+    })
 
-    drawBoxes()
+    $('.select a').on('click', function () {
+      selectPuzzle(this.id)
+    })
+
+    selectPuzzle(puzzles[0].number)
   }
 
-  function getCookie () {
-    var cookies = document.cookie.split(';')
-    var solved = []
-    for (var i = 0; i < cookies.length; i++) {
-      var cookie = cookies[i].split('=')
-      if (cookie[0].trim() === 'solved') {
-        solved = cookie[1].split(',')
-      }
+  function buildSelect () {
+    function getYearDiv (year) {
+      return $('<div class="yearsel"><div class="year">' + year + '</div></div>')
     }
-    for (var j = 0; j < solved.length; j++) {
-      var apuzzle = puzzles.find(function (p) { return p.number === parseInt(solved[j]) })
-      if (apuzzle) {
-        apuzzle.solved = true
+    var currYear = 0
+    var currDiv = null
+    for (var i = 0; i < puzzles.length; i++) {
+      if (puzzles[i].year !== currYear) {
+        if (currDiv) {
+          $('.select').append(currDiv)
+        }
+        currYear = puzzles[i].year
+        currDiv = getYearDiv(currYear)
       }
+      var a = $('<a id="' + puzzles[i].number + '" >Vecka ' + puzzles[i].week + '</a>')
+      if (puzzles[i].solved) a.addClass('solved')
+      var started = puzzles[i].try.find(function (t) { return t })
+      if (started) a.addClass('started')
+
+      currDiv.append(a)
     }
+    $('.select').append(currDiv)
   }
 
-  function saveCookie () {
-    var solved = ''
-    for (var j = 0; j < puzzles.length; j++) {
-      if (puzzles[j].solved) {
-        if (solved.length > 0) solved += ','
-        solved += puzzles[j].number
-      }
-    }
-    document.cookie = 'solved = ' + solved + ';'
+  function puzzleByNumber (nr) {
+    return puzzles.find(function (p) { return p.number === parseInt(nr) })
   }
 
-  function selectPuzzle () {
-    $('.success').slideUp()
-    puzzleSelected(this.value)
+  function selectPuzzle (nr) {
+    puzzle = puzzles.find(function (p) { return p.number === parseInt(nr) })
+    $('.puzzlearea').removeClass('success')
+    $('.week').text('Vecka ' + puzzle.week + ', ' + puzzle.year)
+    $('.select').slideUp()
+
+    puzzleSelected(puzzle)
     currAngle = 0
     drawBoxes()
   }
 
-  function puzzleSelected (nr) {
-    puzzle = puzzles[nr]
-
+  function puzzleSelected (puzzle) {
     puzzle.numbers = []
     for (var p = 0; p < puzzle.numberString.length; p++) {
       if (puzzle.numberString[p] !== ' ') puzzle.numbers.push(p + 1)
     }
     puzzle.solution = puzzle.solutionString.split('')
-    puzzle.nofBoxes = puzzle.solution.length
 
     $('.puzzle').empty()
     boxes = []
     for (var i = 0; i < puzzle.nofBoxes; i++) {
-      var abox = $('<div class="wordbox" data-nr="' + i + '"><div class="number"></div><div class="letter"></div></div>')
+      var abox = $('<div class="wordbox" data-nr="' + i + '"><div class="number"></div><div class="letter"><input type="text" /><div class="char"></div></div></div>')
       abox.nr = i
       abox.on('click', boxClicked)
+      abox.find('input').on('focus', function () {
+        $(this).val('')
+      })
 
+      if (puzzle.try[i]) {
+        abox.letter = puzzle.try[i]
+      }
       if (puzzle.solved) {
         abox.letter = puzzle.solutionString[i]
       }
@@ -91,7 +107,7 @@ $(document).ready(function () {
       boxes.push(abox)
       $('.puzzle').append(abox)
     }
-    selected = boxes[0]
+    selectedBox = boxes[0]
 
     for (var j = 0; j < puzzle.numbers.length; j++) {
       var num = puzzle.numbers[j]
@@ -128,17 +144,17 @@ $(document).ready(function () {
       drawBoxes()
       checkSolution()
     }
+    saveCookie()
   }
 
   function forget () {
     puzzle.solved = false
-    saveCookie()
-    $('.success').slideUp()
+    $('.puzzlearea').removeClass('success')
     for (var i = 0; i < boxes.length; i++) {
       boxes[i].letter = ''
     }
-    var sel = $('.selpuzzle select option:selected')
-    sel.text(sel.text().substring(0, sel.text().length - 7))
+    saveCookie()
+    $('.select a#' + puzzle.number).removeClass('solved')
     drawBoxes()
   }
 
@@ -147,13 +163,16 @@ $(document).ready(function () {
     var textOffset = nrOffset + width + innerRadius / 10
     $('.wordbox').css({ width: width, height: width + nrOffset })
     $('.wordbox .number').css({ height: nrOffset })
-    $('.wordbox .letter').css({ height: width, lineHeight: width + 'px', fontSize: width + 'px' })
+    $('.wordbox .letter').css({ height: width, width: width, lineHeight: width + 'px', fontSize: width + 'px' })
+    $('.wordbox .letter input').css({ height: width, width: width })
     $('.title').css({ width: 2 * circleRadius, fontSize: fontSize })
     $('.title1').css({ top: textOffset })
     $('.title2').css({ top: 2 * circleRadius - textOffset - fontSize })
     var textRadius = circleRadius - textOffset - fontSize
     $('.title1').arctext({ radius: textRadius })
     $('.title2').arctext({ radius: textRadius, dir: -1 })
+    $('.successarea h2').css({ fontSize: fontSize })
+    $('.successarea').css({ top: circleRadius - $('.successarea').height() })
   }
 
   function getRadius () {
@@ -173,65 +192,172 @@ $(document).ready(function () {
       var x = radius * Math.sin(angle) + circleRadius - width / 2
       var y = radius * (1 - Math.cos(angle))
       var deg = toDeg(angle)
-      boxes[i].find('.letter').text(boxes[i].letter)
+      boxes[i].find('.letter .char').text(boxes[i].letter)
       if (boxes[i].number) {
         boxes[i].find('.number').text(boxes[i].number)
       }
       boxes[i].css({ left: x, top: y, transform: 'rotate(' + deg + 'deg)' })
       boxes[i].removeClass('selected')
-      if (boxes[i] === selected) {
+      if (boxes[i] === selectedBox) {
         boxes[i].addClass('selected')
       }
     }
+    $('.puzzlearea').css({ height: circleRadius - 50 })
   }
 
   function charEnter (e) {
-    if ((e.keyCode >= 65 && e.keyCode <= 90) ||
-      e.keyCode === 221 || e.keyCode === 222 || e.keyCode === 192) {
-      selected.letter = String.fromCharCode(e.keyCode)
-      var nextNr = (selected.nr + 1) % puzzle.nofBoxes
+    if ((e.keyCode >= 65 && e.keyCode <= 90) || e.key.toUpperCase() === 'Å' || e.key.toUpperCase() === 'Ä' || e.key.toUpperCase() === 'Ö') {
+      selectedBox.letter = e.key.toUpperCase()
+      var nextNr = (selectedBox.nr + 1) % puzzle.nofBoxes
       selectBox(boxes[nextNr])
+      $('.wordbox').removeClass('error')
+      $('.select a#' + puzzle.number).addClass('started')
       checkSolution()
     } else if (e.keyCode === 8 || e.keyCode === 46) {
-      selected.letter = ''
+      selectedBox.letter = ''
+      $('.wordbox').removeClass('error')
       drawBoxes()
     } else if (e.keyCode === 37) {
-      var prevNr = (selected.nr - 1)
+      var prevNr = (selectedBox.nr - 1)
       if (prevNr < 0) prevNr = puzzle.nofBoxes - 1
       selectBox(boxes[prevNr])
     } else if (e.keyCode === 39) {
-      var nextNr = (selected.nr + 1) % puzzle.nofBoxes
+      var nextNr = (selectedBox.nr + 1) % puzzle.nofBoxes
       selectBox(boxes[nextNr])
+    }
+    saveCookie()
+  }
+
+  function saveCookie () {
+    for (var i = 0; i < boxes.length; i++) {
+      puzzle.try[i] = boxes[i].letter
+    }
+
+    var cookie = ''
+    for (var j = 0; j < puzzles.length; j++) {
+      if (cookie.length > 0) cookie += '|'
+      cookie += puzzles[j].number + ','
+      if (puzzles[j].solved) {
+        cookie += '*'
+      } else {
+        var found = false
+        var thisCookie = ''
+        for (var k = 0; k < puzzles[j].try.length; k++) {
+          if (puzzles[j].try[k]) found = true
+          thisCookie += puzzles[j].try[k] || ' '
+        }
+        if (found) cookie += thisCookie
+        else cookie += '-'
+      }
+    }
+    var now = new Date()
+
+    now.setTime(now.getTime() + 356 * 24 * 3600 * 1000)
+    cookie = 'tries=' + cookie + ';expires=' + now.toGMTString() + ';'
+
+    document.cookie = cookie
+    document.cookie = 'solved=; expires=Thu, 01 Jan 1970 00:00:00 UTC;'
+  }
+
+  function fixOldCookie (cookies, tries) {
+    var solved = null
+    for (var i = 0; i < cookies.length; i++) {
+      var cookieArr = cookies[i].split('=')
+      if (cookieArr[0].trim() === 'solved') {
+        solved = cookieArr[1]
+      }
+    }
+    if (solved && solved.length > 0) {
+      solved = solved.split(',')
+      for (var j = 0; j < tries.length; j++) {
+        var atry = tries[j].split(',')
+        if (solved.find(function (s) { return parseInt(s) === parseInt(atry[0]) })) {
+          tries[j] = atry[0] + ',*'
+        }
+      }
+    }
+    return tries
+  }
+
+  function readCookie () {
+    try {
+      for (var p = 0; p < puzzles.length; p++) {
+        puzzles[p].try = new Array(puzzles[p].nofBoxes)
+      }
+
+      var cookies = document.cookie.split(';')
+
+      var tries = null
+      for (var i = 0; i < cookies.length; i++) {
+        var cookieArr = cookies[i].split('=')
+        if (cookieArr[0].trim() === 'tries') {
+          tries = cookieArr[1].split('|')
+        }
+      }
+
+      if (!tries) {
+        tries = []
+        for (var t = 0; t < puzzles.length; t++) {
+          tries.push(puzzles[t].number + ',-')
+        }
+      }
+
+      tries = fixOldCookie(cookies, tries)
+
+      if (tries) {
+        for (var j = 0; j < tries.length; j++) {
+          var atry = tries[j].split(',')
+          var apuzzle = puzzleByNumber(atry[0])
+          if (atry[1] === '*') {
+            apuzzle.solved = true
+          } else if (atry[1] !== '-') {
+            var letters = atry[1].split('')
+            for (var k = 0; k < apuzzle.try.length; k++) {
+              if (letters[k] !== ' ') {
+                apuzzle.try[k] = letters[k]
+              }
+            }
+          }
+        }
+      }
+    } catch (ex) {
+      console.log(ex)
     }
   }
 
   function checkSolution () {
     var answer = ''
     for (var i = 0; i < puzzle.nofBoxes; i++) {
-      answer = answer + boxes[i].letter
+      if (boxes[i].letter) answer = answer + boxes[i].letter
     }
-    if (answer === puzzle.solutionString) {
-      puzzle.solved = true
-      saveCookie()
+    if (answer.length === puzzle.solutionString.length) {
+      if (answer === puzzle.solutionString) {
+        puzzle.solved = true
+        saveCookie()
 
-      var sel = $('.selpuzzle select option:selected')
-      if (sel.text().indexOf('(Löst)') < 0) {
-        sel.text(sel.text() + ' (Löst)')
+        $('.select a#' + puzzle.number).addClass('solved')
+
+        $('.puzzlearea').addClass('success')
+      } else {
+        for (var j = 0; j < puzzle.nofBoxes; j++) {
+          if (boxes[j].letter !== puzzle.solutionString[j]) {
+            boxes[j].addClass('error')
+          }
+        }
       }
-
-      $('.success').slideDown()
     }
   }
 
   function selectBox (box) {
-    selected = box
+    selectedBox = box
     drawBoxes()
-    spinToBox(selected)
+    spinToBox(selectedBox)
+    selectedBox.find('input').focus()
   }
 
   function spinToBox (box) {
     if (!spinning) {
-      finalAngle = 360 - selected.nr * 360 / puzzle.nofBoxes
+      finalAngle = 360 - selectedBox.nr * 360 / puzzle.nofBoxes
 
       var diff = currAngle - finalAngle
       var direction = (diff > 0 ? -1 : 1)
@@ -254,7 +380,7 @@ $(document).ready(function () {
   }
 
   function spin (direction) {
-    if ((direction === -1 && currAngle <= finalAngle) || (direction === 1 && currAngle >= finalAngle)) {
+    if ((direction === -1 && currAngle <= finalAngle) || (direction === 1 && currAngle >= finalAngle) || spinAmount === 0) {
       clearInterval(spinning)
       spinning = null
     } else {

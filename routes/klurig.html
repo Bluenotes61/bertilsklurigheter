@@ -5,13 +5,12 @@
   <link rel="stylesheet" type="text/css" href="css/klurig.css" />
 {% endblock %}
 
-{% block content %}
+{% block description %}
+  <h2>Sommartävlingar</h2>
+  <p class='fet'>Dessa sommartävlingar publicerades i Sydsvenskan under åren 1981 till 1992, ofta med fina priser till vinnaren!</p>
+{% endblock %}
 
-  <div class='intro'>
-    <h4>Dessa sommartävlingar publicerades i Sydsvenskan under åren 1981 till 1992,<br />
-    ofta med fina priser till vinnaren!</h4>
-  </div>
-  
+{% block content %}
   <div class='games'>
     {% for game in games %}
       <div class='onegame'>
@@ -35,7 +34,7 @@
                 <div class='qtitle'>Fråga {{loop.index}}</div>
                 <div class='question'>{{q.fraga1}}</div>
                 <div class='question'>{{q.fraga2}}</div>
-                <a class='answerlink'>Svar >></a>
+                <a class='answerlink'>Svar »</a>
                 <div class='answer'>
                   <div class='question'>{{q.svar1}}</div>
                   <div class='question'>{{q.svar2}}</div>

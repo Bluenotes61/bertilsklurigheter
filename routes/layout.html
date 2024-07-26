@@ -3,6 +3,13 @@
 <html>
   <head>
     <title>Bertils klurigheter</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <meta content="Tävlingar av Bertil Ljungberg, publicerade i Sydsvenskan under 80- och 90-talet" name="description" />
     <meta http-equiv='content-type' content='text/html; charset=utf-8;' />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />    
@@ -21,7 +28,7 @@
       </div>
       <div class='floatleft header'>
         <h1>Bertils klurigheter</h1>
-        <h4>Klurigheter av Bertil Ljungberg, publicerade i Sydsvenskan åren 1981 - 2009.</h4>
+        <h4>Klurigheter av Bertil Ljungberg, publicerade i Sydsvenskan åren 1981 - 2011.</h4>
       </div>
       <div class='floatright fb'>
         <a href='https://www.facebook.com/bertil.ljungberg.1' target='_blank'>
@@ -30,11 +37,16 @@
       </div>
     </div>
     <div class='tabs'>
+      <div class='tab'><a href='/' class='home'>Startsida</a></div>
       <div class='tab'><a href='/klurigheter' class='klurig'>Tävlingar</a></div>
       <div class='tab'><a href='/ordenrunt' class='orden'>Orden runt</a></div>
     </div>
 
     <div class='main'>
+      <div class='description'>
+        {% block description %}
+        {% endblock %}
+      </div>
       <div class='content'>
         {% block content %}
         {% endblock %}

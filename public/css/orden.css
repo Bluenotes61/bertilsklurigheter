@@ -1,3 +1,12 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:first-child {
+  margin-top: 0;
+}
+
 .tab a.orden {
   opacity: 1;
 }
@@ -13,8 +22,66 @@
 }
 .selpuzzle {
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
+.openselect {
+  background: #BA5134;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.openselect:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+.openselect.selected {
+  opacity: 0.7;
+}
+.openselect.selected:hover {
+  opacity: 1;
+}
+.select {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px #5B889D;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 20px 0 0 20px;
+}
+.select .yearsel {
+  padding: 0 20px 20px 0;
+}
+.select .yearsel .year {
+  font-weight: bold;
+  display: block; 
+}
+.select .yearsel a {
+  cursor: pointer;
+  display: block; 
+  opacity: 0.5;
+}
+.select .yearsel a:hover {
+  opacity: 1;
+}
+.select .yearsel a.solved {
+  opacity: 1;
+}
+.select .yearsel a.started {
+  opacity: 1;
+}
+.select .yearsel a.solved::after {
+  content: " (Löst)";
+}
+.select .yearsel a.current {
+  font-weight: bold;
+  color: #5B889D;
+}
+.week {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 .leads {
   position: relative;
   display: inline-block;
@@ -28,14 +95,36 @@
 .puzzlearea {
   position: relative;
   display: inline-block;
-  height: 100px;
   top: 0;
   width: 70%;
 }
-.success {
+.successarea {
+  position: absolute;
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-bottom: 20px;
   display: none;
+  background: #fff;
+  border: solid 3px #5B889D;
+  border-radius: 8px;
+  padding: 20px;
+}
+.successarea .close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.successarea .close img {
+  width: 25px;
+}
+.successarea .close:hover {
+  opacity: 0.7;
+}
+.puzzlearea.success .title, .puzzlearea.success .puzzle {
+  opacity: 0.3;
+}
+.puzzlearea.success .successarea {
+  display: block;
 }
 
 @media(max-width: 600px) {
@@ -70,23 +159,24 @@
 }
 .wordbox .letter {
   border: solid 1px #666;
-  text-align: center;
+  overflow: hidden;
+}
+.wordbox .letter input {
+  display: block;
+  position: absolute;
+  opacity: 0;
 }
 .wordbox.selected .letter {
   background: #ddd;
 }
-.cheat {
-  margin-top: 50px;
-  margin-left: 30px;
+.wordbox.error .letter {
+  border-color: red;
 }
-.cheat a {
-  font-size: 60%;
-  padding: 1px 8px;
+.cheat {
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .forget {
   text-align: center;
-}
-.forget a {
-  font-size: 60%;
-  padding: 1px 8px;
+  margin-top: 20px;
 }

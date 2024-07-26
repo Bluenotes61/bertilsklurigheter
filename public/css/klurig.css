@@ -52,9 +52,8 @@
   float: right;
   text-align: right;
 }
-.description {
-  margin:10px 0;
-  font-size: 120%;
+.image img {
+  max-width: 100%;
 }
 .info {
   font-style: italic;
@@ -62,4 +61,3 @@
 .answerlink {
   color: #BA5134;
 }
-

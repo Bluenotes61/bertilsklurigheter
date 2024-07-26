@@ -10,6 +10,7 @@
     {
       name      : "bertil",
       script    : "app.js",
+      output    : "/dev/null",
       env: {
         COMMON_VARIABLE: "true"
       },

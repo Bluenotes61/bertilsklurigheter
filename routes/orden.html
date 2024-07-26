@@ -11,34 +11,38 @@
   </script>
 {% endblock %}
 
+{% block description %}
+  <h2>Orden runt på åtta svar</h2>
+  <p class='fet'>Ett urval av de ca 1400 "Orden runt på åtta svar" som publicerades i Sydsvenskan mellan 1984 och 2011.</p>
+  <p>
+    Fyll i flätan och observera att lösningsorden delvis täcker varandra.<br />
+    Klicka i den ruta som du vill börja fylla i och börja sedan skriva ordet.<br />
+    Om du kör fast så finns det en "Fuska"-knapp :-)
+  </p>
+{% endblock %}
+
 {% block content %}
-  <div class='intro'>
-    <h2>Orden runt på åtta svar</h2>
-    <p>Ett urval av de 1500 "Orden runt" som publicerades i Sydsvenskan mellan 198? och 20??.</p>
-    <p>Fyll i flätan och observera att lösningsorden delvis täcker varandra.</p>
-    <p>Klicka i den ruta som du vill börja fylla i och börja sedan skriva ordet.</p>
-    <p>Om du kör fast så finns det en "Fuska"-knapp :-)</p>
-  </div>
-
   <div class='selpuzzle'>
-    <h4>Välj ordfläta</h4>
-    <select></select>
+    <a class="openselect button">Välj ordfläta här</a>
+    <div class='select'></div>
   </div>
 
-  <div class='success'>
-    <h2>Du löste ordflätan!<br />Grattis säger Bertil!</h2>
-    <div class='forget'><a class='button'>Glöm lösning</a></div>
-  </div>
-
+  <h3 class='week'>Vecka 44, 1984</h3>
   <div class='submain clearfix'>
     <div class='leads'>
       <ol></ol>
-      <div class='cheat'><a class='button'>Fuska...</a></div>
+      <div class='cheat'><a class='button small'>Fuska...</a></div>
     </div>
     <div class='puzzlearea'>
       <h2 class='title title1'>ORDEN RUNT</h2>
       <h2 class='title title2'>PÅ ÅTTA SVAR</h2>
       <div class='puzzle'></div>
+      <div class='successarea'>
+        <div class='close'><a><img src='gfx/close.png' /></a></div>
+        <h2>Du löste ordflätan!<br />Grattis säger Bertil!</h2>
+        <div class='forget'><a class='button small'>Glöm lösning</a></div>
+      </div>
     </div>
   </div>
+
 {% endblock %}
